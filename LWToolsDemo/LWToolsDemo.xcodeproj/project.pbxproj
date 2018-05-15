@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3322A5C220A1864B0093407B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5C120A1864B0093407B /* AppDelegate.m */; };
+		3322A5C520A1864B0093407B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5C420A1864B0093407B /* ViewController.m */; };
+		3322A5C820A1864B0093407B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3322A5C620A1864B0093407B /* Main.storyboard */; };
+		3322A5CA20A1864D0093407B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3322A5C920A1864D0093407B /* Assets.xcassets */; };
+		3322A5CD20A1864D0093407B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3322A5CB20A1864D0093407B /* LaunchScreen.storyboard */; };
+		3322A5D020A1864D0093407B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5CF20A1864D0093407B /* main.m */; };
+		3322A5E620A187900093407B /* DesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DC20A187900093407B /* DesEncryTool.m */; };
+		3322A5E720A187900093407B /* EncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DD20A187900093407B /* EncryTool.m */; };
+		3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DE20A187900093407B /* EncryDesEncryTool.m */; };
+		3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */; };
+		3322A5EA20A187900093407B /* UIView+LWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5E520A187900093407B /* UIView+LWFrame.m */; };
+		3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5ED20A1A2480093407B /* LWAnimationButton.m */; };
+		3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5F020A1A29B0093407B /* LWEmitterView.m */; };
+		3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5F520A2EE670093407B /* LWSegmentControl.m */; };
+		3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */; };
+		3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FE20A2F3ED0093407B /* LWViewImageController.m */; };
+		3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60120A2F3FB0093407B /* LWSegmentViewController.m */; };
+		3322A61B20A3DA810093407B /* LWPhotoBrowserPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */; };
+		3322A61C20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */; };
+		3322A61D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */; };
+		3322A61E20A3DA810093407B /* LWPhotoBrowserPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */; };
+		3322A61F20A3DA810093407B /* LWPhotoBrowserTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */; };
+		3322A62020A3DA810093407B /* LWPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61020A3DA810093407B /* LWPhotoBrowserController.m */; };
+		3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61420A3DA810093407B /* LWPhotoModel.m */; };
+		3322A62220A3DA810093407B /* LWPhotoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61720A3DA810093407B /* LWPhotoZoomView.m */; };
+		3322A62320A3DA810093407B /* LWPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61820A3DA810093407B /* LWPhotoViewCell.m */; };
+		3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A62620A3DB1D0093407B /* LWPhotosViewController.m */; };
+		3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A62920A3DB350093407B /* LYPictureFirstPageCell.m */; };
+		3322A63720A3DC090093407B /* Expression10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A62C20A3DC090093407B /* Expression10.jpeg */; };
+		3322A63820A3DC090093407B /* Expression06.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A62D20A3DC090093407B /* Expression06.jpeg */; };
+		3322A63920A3DC090093407B /* Expression07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A62E20A3DC090093407B /* Expression07.jpeg */; };
+		3322A63A20A3DC090093407B /* Expression11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A62F20A3DC090093407B /* Expression11.jpeg */; };
+		3322A63B20A3DC090093407B /* Expression01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63020A3DC090093407B /* Expression01.jpeg */; };
+		3322A63C20A3DC090093407B /* Expression02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63120A3DC090093407B /* Expression02.jpeg */; };
+		3322A63D20A3DC090093407B /* Expression03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63220A3DC090093407B /* Expression03.jpeg */; };
+		3322A63E20A3DC090093407B /* Expression04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63320A3DC090093407B /* Expression04.jpeg */; };
+		3322A63F20A3DC090093407B /* Expression08.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63420A3DC090093407B /* Expression08.jpeg */; };
+		3322A64020A3DC090093407B /* Expression09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63520A3DC090093407B /* Expression09.jpeg */; };
+		3322A64120A3DC090093407B /* Expression05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63620A3DC090093407B /* Expression05.jpeg */; };
+		3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64420A3DCA10093407B /* LWAnimationViewController.m */; };
+		3322A64920A3DCE20093407B /* LWAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64820A3DCE20093407B /* LWAnimationView.m */; };
+		3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */; };
+		3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */; };
+		3322A65220A3DD7E0093407B /* LWAnimationViewLineScaleParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */; };
+		3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */; };
+		3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */; };
+		3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */; };
+		3322A65E20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */; };
+		3322A66120A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */; };
+		3322A66420A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */; };
+		3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */; };
+		3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */; };
+		3322A67F20A3DE810093407B /* LWAnimationViewBallGridPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */; };
+		3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */; };
+		3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */; };
+		3322A68220A3DE810093407B /* LWAnimationViewBallRotateChase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */; };
+		3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */; };
+		3322A68420A3DE810093407B /* LWAnimationViewBallPulseRise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */; };
+		3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */; };
+		3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */; };
+		3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */; };
+		3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */; };
+		8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05DB4C6E24D0C3779FA41EB5 /* Pods-LWToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3322A5BD20A1864B0093407B /* LWToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3322A5C020A1864B0093407B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3322A5C120A1864B0093407B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3322A5C320A1864B0093407B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3322A5C420A1864B0093407B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3322A5C720A1864B0093407B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3322A5C920A1864D0093407B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3322A5CC20A1864D0093407B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3322A5CE20A1864D0093407B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3322A5CF20A1864D0093407B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3322A5DB20A187900093407B /* YGDeviceSpaceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDeviceSpaceTool.h; sourceTree = "<group>"; };
+		3322A5DC20A187900093407B /* DesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesEncryTool.m; sourceTree = "<group>"; };
+		3322A5DD20A187900093407B /* EncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryTool.m; sourceTree = "<group>"; };
+		3322A5DE20A187900093407B /* EncryDesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryDesEncryTool.m; sourceTree = "<group>"; };
+		3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDeviceSpaceTool.m; sourceTree = "<group>"; };
+		3322A5E020A187900093407B /* EncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryTool.h; sourceTree = "<group>"; };
+		3322A5E120A187900093407B /* DesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryTool.h; sourceTree = "<group>"; };
+		3322A5E220A187900093407B /* EncryDesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryDesEncryTool.h; sourceTree = "<group>"; };
+		3322A5E420A187900093407B /* UIView+LWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWFrame.h"; sourceTree = "<group>"; };
+		3322A5E520A187900093407B /* UIView+LWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWFrame.m"; sourceTree = "<group>"; };
+		3322A5EC20A1A2480093407B /* LWAnimationButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationButton.h; sourceTree = "<group>"; };
+		3322A5ED20A1A2480093407B /* LWAnimationButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButton.m; sourceTree = "<group>"; };
+		3322A5EF20A1A29B0093407B /* LWEmitterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWEmitterView.h; sourceTree = "<group>"; };
+		3322A5F020A1A29B0093407B /* LWEmitterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWEmitterView.m; sourceTree = "<group>"; };
+		3322A5F420A2EE670093407B /* LWSegmentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentControl.h; sourceTree = "<group>"; };
+		3322A5F520A2EE670093407B /* LWSegmentControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentControl.m; sourceTree = "<group>"; };
+		3322A5FA20A2F3DF0093407B /* LWAnimationButtonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationButtonDemo.h; sourceTree = "<group>"; };
+		3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButtonDemo.m; sourceTree = "<group>"; };
+		3322A5FD20A2F3ED0093407B /* LWViewImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewImageController.h; sourceTree = "<group>"; };
+		3322A5FE20A2F3ED0093407B /* LWViewImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewImageController.m; sourceTree = "<group>"; };
+		3322A60020A2F3FB0093407B /* LWSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentViewController.h; sourceTree = "<group>"; };
+		3322A60120A2F3FB0093407B /* LWSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentViewController.m; sourceTree = "<group>"; };
+		3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserPushTransition.m; sourceTree = "<group>"; };
+		3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserDrivenInteractive.m; sourceTree = "<group>"; };
+		3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserInteractiveTransition.m; sourceTree = "<group>"; };
+		3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserPopTransition.m; sourceTree = "<group>"; };
+		3322A60920A3DA810093407B /* LWPhotoBrowserTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserTransition.h; sourceTree = "<group>"; };
+		3322A60A20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserDrivenInteractive.h; sourceTree = "<group>"; };
+		3322A60B20A3DA810093407B /* LWPhotoBrowserPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserPushTransition.h; sourceTree = "<group>"; };
+		3322A60C20A3DA810093407B /* LWPhotoBrowserPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserPopTransition.h; sourceTree = "<group>"; };
+		3322A60D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserInteractiveTransition.h; sourceTree = "<group>"; };
+		3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserTransition.m; sourceTree = "<group>"; };
+		3322A61020A3DA810093407B /* LWPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserController.m; sourceTree = "<group>"; };
+		3322A61120A3DA810093407B /* LWPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserController.h; sourceTree = "<group>"; };
+		3322A61320A3DA810093407B /* LWPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoModel.h; sourceTree = "<group>"; };
+		3322A61420A3DA810093407B /* LWPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoModel.m; sourceTree = "<group>"; };
+		3322A61620A3DA810093407B /* LWPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoViewCell.h; sourceTree = "<group>"; };
+		3322A61720A3DA810093407B /* LWPhotoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoZoomView.m; sourceTree = "<group>"; };
+		3322A61820A3DA810093407B /* LWPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoViewCell.m; sourceTree = "<group>"; };
+		3322A61920A3DA810093407B /* LWPhotoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoZoomView.h; sourceTree = "<group>"; };
+		3322A61A20A3DA810093407B /* LWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowser.h; sourceTree = "<group>"; };
+		3322A62520A3DB1D0093407B /* LWPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotosViewController.h; sourceTree = "<group>"; };
+		3322A62620A3DB1D0093407B /* LWPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotosViewController.m; sourceTree = "<group>"; };
+		3322A62820A3DB350093407B /* LYPictureFirstPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPictureFirstPageCell.h; sourceTree = "<group>"; };
+		3322A62920A3DB350093407B /* LYPictureFirstPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPictureFirstPageCell.m; sourceTree = "<group>"; };
+		3322A62C20A3DC090093407B /* Expression10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression10.jpeg; sourceTree = "<group>"; };
+		3322A62D20A3DC090093407B /* Expression06.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression06.jpeg; sourceTree = "<group>"; };
+		3322A62E20A3DC090093407B /* Expression07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression07.jpeg; sourceTree = "<group>"; };
+		3322A62F20A3DC090093407B /* Expression11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression11.jpeg; sourceTree = "<group>"; };
+		3322A63020A3DC090093407B /* Expression01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression01.jpeg; sourceTree = "<group>"; };
+		3322A63120A3DC090093407B /* Expression02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression02.jpeg; sourceTree = "<group>"; };
+		3322A63220A3DC090093407B /* Expression03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression03.jpeg; sourceTree = "<group>"; };
+		3322A63320A3DC090093407B /* Expression04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression04.jpeg; sourceTree = "<group>"; };
+		3322A63420A3DC090093407B /* Expression08.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression08.jpeg; sourceTree = "<group>"; };
+		3322A63520A3DC090093407B /* Expression09.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression09.jpeg; sourceTree = "<group>"; };
+		3322A63620A3DC090093407B /* Expression05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression05.jpeg; sourceTree = "<group>"; };
+		3322A64320A3DCA10093407B /* LWAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewController.h; sourceTree = "<group>"; };
+		3322A64420A3DCA10093407B /* LWAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewController.m; sourceTree = "<group>"; };
+		3322A64720A3DCE20093407B /* LWAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationView.h; sourceTree = "<group>"; };
+		3322A64820A3DCE20093407B /* LWAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationView.m; sourceTree = "<group>"; };
+		3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationStyleBase.m; sourceTree = "<group>"; };
+		3322A64B20A3DD260093407B /* LWAnimationStyleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationStyleBase.h; sourceTree = "<group>"; };
+		3322A64D20A3DD660093407B /* LWAnimationViewLineScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineScale.h; sourceTree = "<group>"; };
+		3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineScale.m; sourceTree = "<group>"; };
+		3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineScaleParty.m; sourceTree = "<group>"; };
+		3322A65120A3DD7E0093407B /* LWAnimationViewLineScaleParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineScaleParty.h; sourceTree = "<group>"; };
+		3322A65320A3DDB40093407B /* LWAnimationViewLinePulseOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLinePulseOut.h; sourceTree = "<group>"; };
+		3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLinePulseOut.m; sourceTree = "<group>"; };
+		3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineAudioEqualizer.m; sourceTree = "<group>"; };
+		3322A65720A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineAudioEqualizer.h; sourceTree = "<group>"; };
+		3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallBeat.m; sourceTree = "<group>"; };
+		3322A65A20A3DDEE0093407B /* LWAnimationViewBallBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallBeat.h; sourceTree = "<group>"; };
+		3322A65C20A3DE0A0093407B /* LWAnimationViewBallClipRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotate.h; sourceTree = "<group>"; };
+		3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotate.m; sourceTree = "<group>"; };
+		3322A65F20A3DE240093407B /* LWAnimationViewBallClipRotatePulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotatePulse.h; sourceTree = "<group>"; };
+		3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotatePulse.m; sourceTree = "<group>"; };
+		3322A66220A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotateMultiple.h; sourceTree = "<group>"; };
+		3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotateMultiple.m; sourceTree = "<group>"; };
+		3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallGridBeat.m; sourceTree = "<group>"; };
+		3322A66620A3DE540093407B /* LWAnimationViewBallGridBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallGridBeat.h; sourceTree = "<group>"; };
+		3322A66820A3DE7C0093407B /* LWAnimationViewBallScaleRippleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScaleRippleMultiple.h; sourceTree = "<group>"; };
+		3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulse.m; sourceTree = "<group>"; };
+		3322A66A20A3DE7D0093407B /* LWAnimationViewBallGridPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallGridPulse.h; sourceTree = "<group>"; };
+		3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallGridPulse.m; sourceTree = "<group>"; };
+		3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulseSyn.m; sourceTree = "<group>"; };
+		3322A66D20A3DE7D0093407B /* LWAnimationViewBallSaleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallSaleMultiple.h; sourceTree = "<group>"; };
+		3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRipple.m; sourceTree = "<group>"; };
+		3322A66F20A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallSpinFadeLoad.h; sourceTree = "<group>"; };
+		3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotateChase.m; sourceTree = "<group>"; };
+		3322A67120A3DE7E0093407B /* LWAnimationViewBallRotateChase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallRotateChase.h; sourceTree = "<group>"; };
+		3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallSpinFadeLoad.m; sourceTree = "<group>"; };
+		3322A67320A3DE7F0093407B /* LWAnimationViewBallPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulse.h; sourceTree = "<group>"; };
+		3322A67420A3DE7F0093407B /* LWAnimationViewBallRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallRotate.h; sourceTree = "<group>"; };
+		3322A67520A3DE7F0093407B /* LWAnimationViewBallPulseRise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseRise.h; sourceTree = "<group>"; };
+		3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulseRise.m; sourceTree = "<group>"; };
+		3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScale.m; sourceTree = "<group>"; };
+		3322A67820A3DE800093407B /* LWAnimationViewBallScaleRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScaleRipple.h; sourceTree = "<group>"; };
+		3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallSaleMultiple.m; sourceTree = "<group>"; };
+		3322A67A20A3DE800093407B /* LWAnimationViewBallScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScale.h; sourceTree = "<group>"; };
+		3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseSyn.h; sourceTree = "<group>"; };
+		3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotate.m; sourceTree = "<group>"; };
+		3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRippleMultiple.m; sourceTree = "<group>"; };
+		9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3322A5BA20A1864B0093407B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BAAAA813C81CBD01B382A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05DB4C6E24D0C3779FA41EB5 /* Pods-LWToolsDemo.debug.xcconfig */,
+				F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3322A5B420A1864B0093407B = {
+			isa = PBXGroup;
+			children = (
+				3322A5BF20A1864B0093407B /* LWToolsDemo */,
+				3322A5BE20A1864B0093407B /* Products */,
+				07BAAAA813C81CBD01B382A9 /* Pods */,
+				EB1F3E738A0752A0853D6531 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3322A5BE20A1864B0093407B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5BD20A1864B0093407B /* LWToolsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3322A5BF20A1864B0093407B /* LWToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5D920A187900093407B /* Classes */,
+				3322A5C020A1864B0093407B /* AppDelegate.h */,
+				3322A5C120A1864B0093407B /* AppDelegate.m */,
+				3322A5C320A1864B0093407B /* ViewController.h */,
+				3322A5C420A1864B0093407B /* ViewController.m */,
+				3322A64220A3DC850093407B /* AnimationDemo */,
+				3322A62420A3DB060093407B /* PhotoBrowser */,
+				3322A5F820A2F3CC0093407B /* AnimationButtonDemo */,
+				3322A5F920A2F3CC0093407B /* SegmentControlDemo */,
+				3322A5F720A2F3CC0093407B /* ViewImageDemo */,
+				3322A5C620A1864B0093407B /* Main.storyboard */,
+				3322A5C920A1864D0093407B /* Assets.xcassets */,
+				3322A5CB20A1864D0093407B /* LaunchScreen.storyboard */,
+				3322A5CE20A1864D0093407B /* Info.plist */,
+				3322A5CF20A1864D0093407B /* main.m */,
+			);
+			path = LWToolsDemo;
+			sourceTree = "<group>";
+		};
+		3322A5D920A187900093407B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33693BE920A96A090058E1BB /* Tools */,
+				3322A64620A3DCD80093407B /* LWAnimation */,
+				3322A60320A3DA810093407B /* LWPhotoBroswer */,
+				3322A5EB20A1A2280093407B /* Views */,
+				3322A5DA20A187900093407B /* EncryDesEncryTool */,
+				3322A5E320A187900093407B /* Extensions */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		3322A5DA20A187900093407B /* EncryDesEncryTool */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5DB20A187900093407B /* YGDeviceSpaceTool.h */,
+				3322A5DC20A187900093407B /* DesEncryTool.m */,
+				3322A5DD20A187900093407B /* EncryTool.m */,
+				3322A5DE20A187900093407B /* EncryDesEncryTool.m */,
+				3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */,
+				3322A5E020A187900093407B /* EncryTool.h */,
+				3322A5E120A187900093407B /* DesEncryTool.h */,
+				3322A5E220A187900093407B /* EncryDesEncryTool.h */,
+			);
+			path = EncryDesEncryTool;
+			sourceTree = "<group>";
+		};
+		3322A5E320A187900093407B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5E420A187900093407B /* UIView+LWFrame.h */,
+				3322A5E520A187900093407B /* UIView+LWFrame.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3322A5EB20A1A2280093407B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5EC20A1A2480093407B /* LWAnimationButton.h */,
+				3322A5ED20A1A2480093407B /* LWAnimationButton.m */,
+				3322A5EF20A1A29B0093407B /* LWEmitterView.h */,
+				3322A5F020A1A29B0093407B /* LWEmitterView.m */,
+				3322A5F420A2EE670093407B /* LWSegmentControl.h */,
+				3322A5F520A2EE670093407B /* LWSegmentControl.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3322A5F720A2F3CC0093407B /* ViewImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5FD20A2F3ED0093407B /* LWViewImageController.h */,
+				3322A5FE20A2F3ED0093407B /* LWViewImageController.m */,
+			);
+			path = ViewImageDemo;
+			sourceTree = "<group>";
+		};
+		3322A5F820A2F3CC0093407B /* AnimationButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3322A5FA20A2F3DF0093407B /* LWAnimationButtonDemo.h */,
+				3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */,
+			);
+			path = AnimationButtonDemo;
+			sourceTree = "<group>";
+		};
+		3322A5F920A2F3CC0093407B /* SegmentControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3322A60020A2F3FB0093407B /* LWSegmentViewController.h */,
+				3322A60120A2F3FB0093407B /* LWSegmentViewController.m */,
+			);
+			path = SegmentControlDemo;
+			sourceTree = "<group>";
+		};
+		3322A60320A3DA810093407B /* LWPhotoBroswer */ = {
+			isa = PBXGroup;
+			children = (
+				3322A60420A3DA810093407B /* Transition */,
+				3322A60F20A3DA810093407B /* Controller */,
+				3322A61220A3DA810093407B /* Model */,
+				3322A61520A3DA810093407B /* View */,
+				3322A61A20A3DA810093407B /* LWPhotoBrowser.h */,
+			);
+			path = LWPhotoBroswer;
+			sourceTree = "<group>";
+		};
+		3322A60420A3DA810093407B /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3322A60D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.h */,
+				3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */,
+				3322A60A20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.h */,
+				3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */,
+				3322A60B20A3DA810093407B /* LWPhotoBrowserPushTransition.h */,
+				3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */,
+				3322A60C20A3DA810093407B /* LWPhotoBrowserPopTransition.h */,
+				3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */,
+				3322A60920A3DA810093407B /* LWPhotoBrowserTransition.h */,
+				3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		3322A60F20A3DA810093407B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3322A61020A3DA810093407B /* LWPhotoBrowserController.m */,
+				3322A61120A3DA810093407B /* LWPhotoBrowserController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3322A61220A3DA810093407B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3322A61320A3DA810093407B /* LWPhotoModel.h */,
+				3322A61420A3DA810093407B /* LWPhotoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3322A61520A3DA810093407B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3322A61620A3DA810093407B /* LWPhotoViewCell.h */,
+				3322A61720A3DA810093407B /* LWPhotoZoomView.m */,
+				3322A61820A3DA810093407B /* LWPhotoViewCell.m */,
+				3322A61920A3DA810093407B /* LWPhotoZoomView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3322A62420A3DB060093407B /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				3322A62B20A3DC090093407B /* Expression */,
+				3322A62820A3DB350093407B /* LYPictureFirstPageCell.h */,
+				3322A62920A3DB350093407B /* LYPictureFirstPageCell.m */,
+				3322A62520A3DB1D0093407B /* LWPhotosViewController.h */,
+				3322A62620A3DB1D0093407B /* LWPhotosViewController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		3322A62B20A3DC090093407B /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				3322A62C20A3DC090093407B /* Expression10.jpeg */,
+				3322A62D20A3DC090093407B /* Expression06.jpeg */,
+				3322A62E20A3DC090093407B /* Expression07.jpeg */,
+				3322A62F20A3DC090093407B /* Expression11.jpeg */,
+				3322A63020A3DC090093407B /* Expression01.jpeg */,
+				3322A63120A3DC090093407B /* Expression02.jpeg */,
+				3322A63220A3DC090093407B /* Expression03.jpeg */,
+				3322A63320A3DC090093407B /* Expression04.jpeg */,
+				3322A63420A3DC090093407B /* Expression08.jpeg */,
+				3322A63520A3DC090093407B /* Expression09.jpeg */,
+				3322A63620A3DC090093407B /* Expression05.jpeg */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+		3322A64220A3DC850093407B /* AnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3322A64320A3DCA10093407B /* LWAnimationViewController.h */,
+				3322A64420A3DCA10093407B /* LWAnimationViewController.m */,
+			);
+			path = AnimationDemo;
+			sourceTree = "<group>";
+		};
+		3322A64620A3DCD80093407B /* LWAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				3322A64720A3DCE20093407B /* LWAnimationView.h */,
+				3322A64820A3DCE20093407B /* LWAnimationView.m */,
+				3322A64B20A3DD260093407B /* LWAnimationStyleBase.h */,
+				3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */,
+				3322A64D20A3DD660093407B /* LWAnimationViewLineScale.h */,
+				3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */,
+				3322A65120A3DD7E0093407B /* LWAnimationViewLineScaleParty.h */,
+				3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */,
+				3322A65320A3DDB40093407B /* LWAnimationViewLinePulseOut.h */,
+				3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */,
+				3322A65720A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.h */,
+				3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */,
+				3322A65A20A3DDEE0093407B /* LWAnimationViewBallBeat.h */,
+				3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */,
+				3322A65C20A3DE0A0093407B /* LWAnimationViewBallClipRotate.h */,
+				3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */,
+				3322A65F20A3DE240093407B /* LWAnimationViewBallClipRotatePulse.h */,
+				3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */,
+				3322A66220A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.h */,
+				3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */,
+				3322A66620A3DE540093407B /* LWAnimationViewBallGridBeat.h */,
+				3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */,
+				3322A66A20A3DE7D0093407B /* LWAnimationViewBallGridPulse.h */,
+				3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */,
+				3322A67320A3DE7F0093407B /* LWAnimationViewBallPulse.h */,
+				3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */,
+				3322A67520A3DE7F0093407B /* LWAnimationViewBallPulseRise.h */,
+				3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */,
+				3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */,
+				3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */,
+				3322A67420A3DE7F0093407B /* LWAnimationViewBallRotate.h */,
+				3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */,
+				3322A67120A3DE7E0093407B /* LWAnimationViewBallRotateChase.h */,
+				3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */,
+				3322A66D20A3DE7D0093407B /* LWAnimationViewBallSaleMultiple.h */,
+				3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */,
+				3322A67A20A3DE800093407B /* LWAnimationViewBallScale.h */,
+				3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */,
+				3322A67820A3DE800093407B /* LWAnimationViewBallScaleRipple.h */,
+				3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */,
+				3322A66820A3DE7C0093407B /* LWAnimationViewBallScaleRippleMultiple.h */,
+				3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */,
+				3322A66F20A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.h */,
+				3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */,
+			);
+			path = LWAnimation;
+			sourceTree = "<group>";
+		};
+		33693BE920A96A090058E1BB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EB1F3E738A0752A0853D6531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3322A5BC20A1864B0093407B /* LWToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3322A5D320A1864D0093407B /* Build configuration list for PBXNativeTarget "LWToolsDemo" */;
+			buildPhases = (
+				914373336DCF209E03446BD1 /* [CP] Check Pods Manifest.lock */,
+				3322A5B920A1864B0093407B /* Sources */,
+				3322A5BA20A1864B0093407B /* Frameworks */,
+				3322A5BB20A1864B0093407B /* Resources */,
+				1BA70991D2AB4D85004B1EC3 /* [CP] Embed Pods Frameworks */,
+				1E494BD2F90EE438912610AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWToolsDemo;
+			productName = LWToolsDemo;
+			productReference = 3322A5BD20A1864B0093407B /* LWToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3322A5B520A1864B0093407B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = weil;
+				TargetAttributes = {
+					3322A5BC20A1864B0093407B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3322A5B820A1864B0093407B /* Build configuration list for PBXProject "LWToolsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3322A5B420A1864B0093407B;
+			productRefGroup = 3322A5BE20A1864B0093407B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3322A5BC20A1864B0093407B /* LWToolsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3322A5BB20A1864B0093407B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3322A63A20A3DC090093407B /* Expression11.jpeg in Resources */,
+				3322A63F20A3DC090093407B /* Expression08.jpeg in Resources */,
+				3322A64020A3DC090093407B /* Expression09.jpeg in Resources */,
+				3322A5CD20A1864D0093407B /* LaunchScreen.storyboard in Resources */,
+				3322A63D20A3DC090093407B /* Expression03.jpeg in Resources */,
+				3322A5CA20A1864D0093407B /* Assets.xcassets in Resources */,
+				3322A63820A3DC090093407B /* Expression06.jpeg in Resources */,
+				3322A63C20A3DC090093407B /* Expression02.jpeg in Resources */,
+				3322A64120A3DC090093407B /* Expression05.jpeg in Resources */,
+				3322A63720A3DC090093407B /* Expression10.jpeg in Resources */,
+				3322A63920A3DC090093407B /* Expression07.jpeg in Resources */,
+				3322A63B20A3DC090093407B /* Expression01.jpeg in Resources */,
+				3322A63E20A3DC090093407B /* Expression04.jpeg in Resources */,
+				3322A5C820A1864B0093407B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA70991D2AB4D85004B1EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E494BD2F90EE438912610AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914373336DCF209E03446BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWToolsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3322A5B920A1864B0093407B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3322A61F20A3DA810093407B /* LWPhotoBrowserTransition.m in Sources */,
+				3322A67F20A3DE810093407B /* LWAnimationViewBallGridPulse.m in Sources */,
+				3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */,
+				3322A62320A3DA810093407B /* LWPhotoViewCell.m in Sources */,
+				3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */,
+				3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */,
+				3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */,
+				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
+				3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */,
+				3322A61B20A3DA810093407B /* LWPhotoBrowserPushTransition.m in Sources */,
+				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
+				3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */,
+				3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */,
+				3322A5E720A187900093407B /* EncryTool.m in Sources */,
+				3322A66120A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m in Sources */,
+				3322A5E620A187900093407B /* DesEncryTool.m in Sources */,
+				3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */,
+				3322A61E20A3DA810093407B /* LWPhotoBrowserPopTransition.m in Sources */,
+				3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */,
+				3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */,
+				3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */,
+				3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */,
+				3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */,
+				3322A61D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m in Sources */,
+				3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */,
+				3322A61C20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m in Sources */,
+				3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */,
+				3322A62020A3DA810093407B /* LWPhotoBrowserController.m in Sources */,
+				3322A68420A3DE810093407B /* LWAnimationViewBallPulseRise.m in Sources */,
+				3322A66420A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m in Sources */,
+				3322A62220A3DA810093407B /* LWPhotoZoomView.m in Sources */,
+				3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */,
+				3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */,
+				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
+				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
+				3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */,
+				3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */,
+				3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */,
+				3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */,
+				3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */,
+				3322A68220A3DE810093407B /* LWAnimationViewBallRotateChase.m in Sources */,
+				3322A65220A3DD7E0093407B /* LWAnimationViewLineScaleParty.m in Sources */,
+				3322A65E20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m in Sources */,
+				3322A64920A3DCE20093407B /* LWAnimationView.m in Sources */,
+				3322A5EA20A187900093407B /* UIView+LWFrame.m in Sources */,
+				3322A5D020A1864D0093407B /* main.m in Sources */,
+				3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */,
+				3322A5C220A1864B0093407B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3322A5C620A1864B0093407B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3322A5C720A1864B0093407B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3322A5CB20A1864D0093407B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3322A5CC20A1864D0093407B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3322A5D120A1864D0093407B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3322A5D220A1864D0093407B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3322A5D420A1864D0093407B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DB4C6E24D0C3779FA41EB5 /* Pods-LWToolsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKBW8AGZ9Y;
+				INFOPLIST_FILE = LWToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.LWToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3322A5D520A1864D0093407B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKBW8AGZ9Y;
+				INFOPLIST_FILE = LWToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.LWToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3322A5B820A1864B0093407B /* Build configuration list for PBXProject "LWToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3322A5D120A1864D0093407B /* Debug */,
+				3322A5D220A1864D0093407B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3322A5D320A1864D0093407B /* Build configuration list for PBXNativeTarget "LWToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3322A5D420A1864D0093407B /* Debug */,
+				3322A5D520A1864D0093407B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3322A5B520A1864B0093407B /* Project object */;
+}
