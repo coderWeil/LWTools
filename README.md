@@ -1,9 +1,6 @@
 # LWTools
 工作中常用的方法封装
 
-### gif动图效果
-![动图](https://github.com/guyuliunian/LWTools/blob/master/LWTools.gif)
-
 ### 1.view添加分类，方便布局
 ```
 //例如：
@@ -48,6 +45,7 @@ view.lw_origin
 ```
 
 ### 5.由view生成图片
+![gif动图展示](https://github.com/guyuliunian/LWTools/blob/master/从View生成图片.gif)
 ```
 - (UIImage *)getImageFromView {
 CGFloat scale = [UIScreen mainScreen].scale;
@@ -61,5 +59,10 @@ return image;
 ### 6.简单的选择栏封装(不带滚动)
 
 ### 7.类似微信的图片浏览器
+![gif动图展示](https://github.com/guyuliunian/LWTools/blob/master/类似微信图片浏览.gif)
 
 ### 8.多种加载动画效果示例
+![gif动图展示](https://github.com/guyuliunian/LWTools/blob/master/多种加载动画.gif)
+
+### 9.点赞动画
+![gif动图展示](https://github.com/guyuliunian/LWTools/blob/master/点赞动画.gif)
