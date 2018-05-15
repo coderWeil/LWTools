@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LWTools"
-  s.version      = "2.0"
+  s.version      = "2.0.1"
   s.summary      = "一些常用的工具类"
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/guyuliunian/LWTools.git", :tag => "2.0" }
+  s.source       = { :git => "https://github.com/guyuliunian/LWTools.git", :tag => "2.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
