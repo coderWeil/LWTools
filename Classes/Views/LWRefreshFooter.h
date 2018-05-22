@@ -6,7 +6,7 @@
 //  Copyright © 2018年 weil. All rights reserved.
 //
 
-#import "MJRefreshBackFooter.h"
+#import <MJRefresh/MJRefresh.h>
 #import "LWAnimationView.h"
 
 @interface LWRefreshFooter : MJRefreshBackFooter
