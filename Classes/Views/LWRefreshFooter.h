@@ -1,5 +1,5 @@
 //
-//  LWRereshFooter.h
+//  LWRefreshFooter.h
 //  LWToolsDemo
 //
 //  Created by weil on 2018/5/22.

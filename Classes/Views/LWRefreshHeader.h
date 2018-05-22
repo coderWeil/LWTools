@@ -7,7 +7,11 @@
 //
 
 #import "MJRefreshHeader.h"
+#import "LWAnimationView.h"
 
 @interface LWRefreshHeader : MJRefreshHeader
-
+//填充色
+@property (nonatomic,strong) UIColor *loadingColor;
+@property (nonatomic,assign) CGFloat loadingSize;
+@property (nonatomic,assign) LWAnimationViewStyle style;
 @end
