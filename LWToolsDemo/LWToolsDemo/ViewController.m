@@ -12,6 +12,7 @@
 #import "LWSegmentViewController.h"
 #import "LWPhotosViewController.h"
 #import "LWAnimationViewController.h"
+#import "LWRereshAnimationDemo.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -28,7 +29,7 @@
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     [self.view addSubview:_tableView];
     
-    _dataSoure = @[NSStringFromClass([LWAnimationButtonDemo class]),NSStringFromClass([LWViewImageController class]),NSStringFromClass([LWSegmentViewController class]),NSStringFromClass([LWPhotosViewController class]),NSStringFromClass([LWAnimationViewController class])];
+    _dataSoure = @[NSStringFromClass([LWAnimationButtonDemo class]),NSStringFromClass([LWViewImageController class]),NSStringFromClass([LWSegmentViewController class]),NSStringFromClass([LWPhotosViewController class]),NSStringFromClass([LWAnimationViewController class]),NSStringFromClass([LWRereshAnimationDemo class])];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return _dataSoure.count;

@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    _segmentControl = [[LWSegmentControl alloc] initWithFrame:CGRectMake(0, 64, self.view.lw_width, 50) items:@[@"标题1",@"标题标题标题",@"课程(103节)"]];
+    _segmentControl = [[LWSegmentControl alloc] initWithFrame:CGRectMake(0, 100, self.view.lw_width, 50) items:@[@"标题1",@"标题标题标题",@"课程(103节)"]];
     _segmentControl.normalFont = [UIFont systemFontOfSize:12];
     _segmentControl.selectedFont = [UIFont systemFontOfSize:15];
     _segmentControl.normalColor = [UIColor lightGrayColor];

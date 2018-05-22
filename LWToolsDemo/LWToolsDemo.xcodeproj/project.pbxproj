@@ -69,6 +69,9 @@
 		3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */; };
 		3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */; };
 		3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */; };
+		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
+		339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */; };
+		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
 		8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -186,6 +189,12 @@
 		3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseSyn.h; sourceTree = "<group>"; };
 		3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotate.m; sourceTree = "<group>"; };
 		3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRippleMultiple.m; sourceTree = "<group>"; };
+		339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
+		339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
+		339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
+		339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
+		339D68A220B3F91800C9C587 /* LWRereshAnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRereshAnimationDemo.h; sourceTree = "<group>"; };
+		339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRereshAnimationDemo.m; sourceTree = "<group>"; };
 		9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,6 +246,7 @@
 				3322A5C120A1864B0093407B /* AppDelegate.m */,
 				3322A5C320A1864B0093407B /* ViewController.h */,
 				3322A5C420A1864B0093407B /* ViewController.m */,
+				339D68A120B3F90300C9C587 /* RefreshDemo */,
 				3322A64220A3DC850093407B /* AnimationDemo */,
 				3322A62420A3DB060093407B /* PhotoBrowser */,
 				3322A5F820A2F3CC0093407B /* AnimationButtonDemo */,
@@ -298,6 +308,10 @@
 				3322A5F020A1A29B0093407B /* LWEmitterView.m */,
 				3322A5F420A2EE670093407B /* LWSegmentControl.h */,
 				3322A5F520A2EE670093407B /* LWSegmentControl.m */,
+				339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */,
+				339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */,
+				339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */,
+				339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -484,6 +498,15 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		339D68A120B3F90300C9C587 /* RefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				339D68A220B3F91800C9C587 /* LWRereshAnimationDemo.h */,
+				339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */,
+			);
+			path = RefreshDemo;
+			sourceTree = "<group>";
+		};
 		EB1F3E738A0752A0853D6531 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -503,7 +526,6 @@
 				3322A5B920A1864B0093407B /* Sources */,
 				3322A5BA20A1864B0093407B /* Frameworks */,
 				3322A5BB20A1864B0093407B /* Resources */,
-				1BA70991D2AB4D85004B1EC3 /* [CP] Embed Pods Frameworks */,
 				1E494BD2F90EE438912610AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -572,30 +594,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1BA70991D2AB4D85004B1EC3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1E494BD2F90EE438912610AD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -635,8 +645,10 @@
 				3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */,
 				3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */,
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
+				339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */,
 				3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */,
 				3322A61B20A3DA810093407B /* LWPhotoBrowserPushTransition.m in Sources */,
+				339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */,
 				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
 				3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */,
 				3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */,
@@ -663,6 +675,7 @@
 				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
 				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
 				3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */,
+				339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */,
 				3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */,
 				3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */,
 				3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */,
