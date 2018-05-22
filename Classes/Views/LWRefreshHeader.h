@@ -6,7 +6,7 @@
 //  Copyright © 2018年 weil. All rights reserved.
 //
 
-#import <MJRefresh/MJRefresh.h>
+#import "MJRefreshHeader.h"
 #import "LWAnimationView.h"
 
 @interface LWRefreshHeader : MJRefreshHeader
