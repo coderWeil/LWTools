@@ -27,6 +27,29 @@ static NSInteger const LW_ITEM_TAG = 10;
         self.backgroundColor = [UIColor whiteColor];
         _itemMargin = 0;
         _enableTextAnimation = YES;
+        _topMargin = 0;
+        [self _loadSubviews];
+    }
+    return self;
+}
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [UIColor whiteColor];
+        _itemMargin = 0;
+        _enableTextAnimation = YES;
+        _topMargin = 0;
+        [self _loadSubviews];
+    }
+    return self;
+}
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor whiteColor];
+        _itemMargin = 0;
+        _enableTextAnimation = YES;
+        _topMargin = 0;
         [self _loadSubviews];
     }
     return self;
@@ -101,7 +124,7 @@ static NSInteger const LW_ITEM_TAG = 10;
             btnCenterX = lastItem.lw_maxX + _itemMargin + (titleSize.width + 30) * 0.5;
             progressCenterX = lastItem.lw_maxX + _itemMargin + (textSize.width + 30) * 0.5;
         }
-        button.center = CGPointMake(btnCenterX, self.lw_height * 0.5);
+        button.center = CGPointMake(btnCenterX, _topMargin + (self.lw_height - _topMargin) * 0.5);
         button.bounds = CGRectMake(0, 0, titleSize.width + 30 , titleSize.height);
         if (i == 0) {
             if (_enableTextAnimation) {

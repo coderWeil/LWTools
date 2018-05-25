@@ -27,6 +27,8 @@
 @property (nonatomic,assign,readonly) NSInteger currentIndex;
 /** 是否开启文字渐变动画 ,默认是YES**/
 @property (nonatomic,assign) BOOL enableTextAnimation;
+/** 顶部间距，默认20，状态栏高度 **/
+@property (nonatomic,assign) CGFloat topMargin;
 /** 选中item的回调 **/
 @property (nonatomic,copy) void(^didClickItemAtIndex)(NSInteger index);
 /** 是否显示底部细线 **/
