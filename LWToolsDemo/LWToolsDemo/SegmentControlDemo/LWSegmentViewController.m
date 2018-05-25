@@ -21,12 +21,13 @@
     self.view.backgroundColor = [UIColor whiteColor];
     _segmentControl = [[LWSegmentControl alloc] initWithFrame:CGRectMake(0, 100, self.view.lw_width, 50) items:@[@"标题1",@"标题标题标题",@"课程(103节)"]];
     _segmentControl.normalFont = [UIFont systemFontOfSize:12];
-    _segmentControl.selectedFont = [UIFont systemFontOfSize:15];
+    _segmentControl.selectedFont = [UIFont systemFontOfSize:12];
     _segmentControl.normalColor = [UIColor lightGrayColor];
     _segmentControl.selectedColor = [UIColor blackColor];
     _segmentControl.progressColor = [UIColor blackColor];
     _segmentControl.lineViewColor = [UIColor lightGrayColor];
     _segmentControl.itemMargin = 10;
+    _segmentControl.enableTextAnimation = NO;
     _segmentControl.didClickItemAtIndex = ^(NSInteger index) {
         NSLog(@"%zd",index);
     };

@@ -9,10 +9,12 @@
 #import "LWViewImageController.h"
 #import "LWAnimationButton.h"
 #import "UIView+LWFrame.h"
+#import "LWLineLabel.h"
 
 @interface LWViewImageController ()
 @property (nonatomic,strong) LWAnimationButton *animationButton;
 @property (nonatomic,strong) UIImageView *imageView;
+@property (nonatomic,strong) LWLineLabel *lineLabel;
 @end
 
 @implementation LWViewImageController
@@ -36,6 +38,15 @@
     _imageView.frame = CGRectMake(50, 100, 50, 20);
     _imageView.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:_imageView];
+    
+    _lineLabel = [[LWLineLabel alloc] init];
+    _lineLabel.textColor = [UIColor redColor];
+    _lineLabel.textFont = [UIFont systemFontOfSize:15];
+    _lineLabel.lineColor = [UIColor redColor];
+    _lineLabel.text = @"底部带线的文字";
+    CGSize textSize = [_lineLabel.text  sizeWithAttributes:@{NSFontAttributeName:_lineLabel.textFont}];
+    _lineLabel.frame = CGRectMake(50, 200, textSize.width,textSize.height + 1);
+    [self.view addSubview:_lineLabel];
 }
 
 - (void)zanAction {

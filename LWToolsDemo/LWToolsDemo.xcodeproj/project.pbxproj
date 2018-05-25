@@ -72,6 +72,7 @@
 		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
 		339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */; };
 		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
+		339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68C820B655F000C9C587 /* LWLineLabel.m */; };
 		8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -195,6 +196,8 @@
 		339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
 		339D68A220B3F91800C9C587 /* LWRereshAnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRereshAnimationDemo.h; sourceTree = "<group>"; };
 		339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRereshAnimationDemo.m; sourceTree = "<group>"; };
+		339D68C720B655F000C9C587 /* LWLineLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLineLabel.h; sourceTree = "<group>"; };
+		339D68C820B655F000C9C587 /* LWLineLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLineLabel.m; sourceTree = "<group>"; };
 		9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -312,6 +315,8 @@
 				339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */,
 				339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */,
 				339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */,
+				339D68C720B655F000C9C587 /* LWLineLabel.h */,
+				339D68C820B655F000C9C587 /* LWLineLabel.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 				3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */,
 				3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */,
 				3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */,
+				339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */,
 				3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */,
 				3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */,
 				3322A61D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m in Sources */,

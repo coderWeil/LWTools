@@ -26,6 +26,7 @@ static NSInteger const LW_ITEM_TAG = 10;
         _itemsArr = items;
         self.backgroundColor = [UIColor whiteColor];
         _itemMargin = 0;
+        _enableTextAnimation = YES;
         [self _loadSubviews];
     }
     return self;
@@ -103,7 +104,9 @@ static NSInteger const LW_ITEM_TAG = 10;
         button.center = CGPointMake(btnCenterX, self.lw_height * 0.5);
         button.bounds = CGRectMake(0, 0, titleSize.width + 30 , titleSize.height);
         if (i == 0) {
-            button.transform = CGAffineTransformMakeScale(1.2, 1.2);
+            if (_enableTextAnimation) {
+                button.transform = CGAffineTransformMakeScale(1.2, 1.2);
+            }
             _progressView.center = CGPointMake(progressCenterX, (self.lw_height - button.lw_maxY) / 3.0 + button.lw_maxY);
             _progressView.bounds = CGRectMake(0, 0, 15, 2);
         }
@@ -124,7 +127,9 @@ static NSInteger const LW_ITEM_TAG = 10;
     _currentButton.selected = NO;
     _currentButton.titleLabel.font = _normalFont;
     _currentButton = _buttonArr[index];
-    _currentButton.transform = CGAffineTransformMakeScale(1.2, 1.2);
+    if (_enableTextAnimation) {
+        _currentButton.transform = CGAffineTransformMakeScale(1.2, 1.2);
+    }
     NSString *title = _itemsArr[index];
     NSArray *titleArr = [title componentsSeparatedByString:@"("];
     CGSize textSize = CGSizeZero;
@@ -133,7 +138,7 @@ static NSInteger const LW_ITEM_TAG = 10;
         textSize =  [text boundingRectWithSize:CGSizeMake(HUGE, HUGE) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:_selectedFont,NSForegroundColorAttributeName:_selectedColor} context:nil].size;
     }
     [UIView animateWithDuration:0.25 animations:^{
-        self.progressView.center = CGPointMake(self.currentButton.lw_centerX - textSize.width * 0.5 * 1.2,  (self.lw_height - self.currentButton.lw_maxY) / 3.0 + self.currentButton.lw_maxY);
+        self.progressView.center = CGPointMake(self.currentButton.lw_centerX - textSize.width * 0.5 * (self.enableTextAnimation ? 1.2 : 1.0),  (self.lw_height - self.currentButton.lw_maxY) / 3.0 + self.currentButton.lw_maxY);
     } completion:^(BOOL finished) {
         self.currentButton.selected = YES;
         self.currentButton.titleLabel.font = self.selectedFont;
