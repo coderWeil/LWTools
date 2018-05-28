@@ -41,4 +41,8 @@
 - (void)reloadItems;
 /** 设置选中的下标 **/
 - (void)setCurrentSelectedIndex:(NSInteger)index;
+/** 显示红点 **/
+- (void)showBadgeAtIndex:(NSInteger)index;
+/** 隐藏红点 **/
+- (void)hideBadgeViewAtIndex:(NSInteger)index;
 @end

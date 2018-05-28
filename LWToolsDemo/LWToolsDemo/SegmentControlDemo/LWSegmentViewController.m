@@ -36,6 +36,8 @@
     [_segmentControl reloadItems];
     [self.view addSubview:_segmentControl];
     [_segmentControl setCurrentSelectedIndex:1];
+    [_segmentControl showBadgeAtIndex:0];
+    [_segmentControl showBadgeAtIndex:2];
 }
 
 @end

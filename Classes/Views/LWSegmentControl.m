@@ -17,6 +17,7 @@ static NSInteger const LW_ITEM_TAG = 10;
 @property (nonatomic,assign,readwrite) NSInteger currentIndex;
 @property (nonatomic,strong) UIView *lineView;
 @property (nonatomic,strong) UIView *progressView;
+@property (nonatomic,strong) NSMutableArray *badgeArr;
 @end
 
 @implementation LWSegmentControl
@@ -56,6 +57,7 @@ static NSInteger const LW_ITEM_TAG = 10;
 }
 - (void)_loadSubviews {
     _buttonArr = [NSMutableArray array];
+     _badgeArr = [NSMutableArray array];
     for (int i = 0; i < _itemsArr.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         [button setTitle:_itemsArr[i] forState:UIControlStateNormal];
@@ -63,6 +65,13 @@ static NSInteger const LW_ITEM_TAG = 10;
         [button addTarget:self action:@selector(didClickButton:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:button];
         [_buttonArr addObject:button];
+        UIView *badgeView = [[UIView alloc] init];
+        badgeView.backgroundColor = [UIColor redColor];
+        badgeView.layer.cornerRadius = 3.0;
+        badgeView.layer.masksToBounds = YES;
+        badgeView.hidden = YES;
+        [self addSubview:badgeView];
+        [_badgeArr addObject:badgeView];
     }
     _currentIndex = -1;
     _lineView = [UIView new];
@@ -133,6 +142,8 @@ static NSInteger const LW_ITEM_TAG = 10;
             _progressView.center = CGPointMake(progressCenterX, (self.lw_height - button.lw_maxY) / 3.0 + button.lw_maxY);
             _progressView.bounds = CGRectMake(0, 0, 15, 2);
         }
+        UIView *badgeView = _badgeArr[i];
+        badgeView.frame = CGRectMake(button.lw_maxX - 15, button.lw_minY, 6.0, 6.0);
         lastItem = button;
     }
     _progressView.backgroundColor = _progressColor;
@@ -166,7 +177,7 @@ static NSInteger const LW_ITEM_TAG = 10;
         self.currentButton.selected = YES;
         self.currentButton.titleLabel.font = self.selectedFont;
     }];
-
+  [self hideBadgeViewAtIndex:index];
 }
 - (void)didClickButton:(UIButton *)button {
     if (_currentButton == button) {
@@ -177,4 +188,13 @@ static NSInteger const LW_ITEM_TAG = 10;
     }
     [self setCurrentSelectedIndex:button.tag - LW_ITEM_TAG];
 }
+- (void)showBadgeAtIndex:(NSInteger)index {
+    UIView *badgeView = _badgeArr[index];
+    badgeView.hidden = NO;
+}
+- (void)hideBadgeViewAtIndex:(NSInteger)index {
+    UIView *badgeView = _badgeArr[index];
+    badgeView.hidden = YES;
+}
+
 @end
