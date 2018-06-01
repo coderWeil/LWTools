@@ -69,6 +69,7 @@
 		3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */; };
 		3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */; };
 		3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */; };
+		3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */; };
 		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
 		339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */; };
 		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
@@ -190,6 +191,8 @@
 		3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseSyn.h; sourceTree = "<group>"; };
 		3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotate.m; sourceTree = "<group>"; };
 		3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRippleMultiple.m; sourceTree = "<group>"; };
+		3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
+		3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
 		339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
 		339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
 		339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
@@ -298,6 +301,8 @@
 			children = (
 				3322A5E420A187900093407B /* UIView+LWFrame.h */,
 				3322A5E520A187900093407B /* UIView+LWFrame.m */,
+				3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */,
+				3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -647,6 +652,7 @@
 				3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */,
 				3322A62320A3DA810093407B /* LWPhotoViewCell.m in Sources */,
 				3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */,
+				3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */,
 				3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */,
 				3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */,
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
