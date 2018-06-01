@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LWTools"
-  s.version      = "2.0.2.4"
+  s.version      = "2.1.0"
   s.summary      = "一些常用的工具类"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "1.对文件的简单加密，解密功能  2.判断设备剩余空间的大小  3.添加view分类  4.粒子动画特效的按钮 5.从一张view中生成图片 6.增加标签选择功能（可显示小红点） 7.类似微信图片浏览功能 8.多种动画效果  9.自定义基于MJRefresh的上拉加载下拉刷新动画"
 
-  s.homepage     = "https://github.com/guyuliunian/LWTools"
+  s.homepage     = "https://github.com/LittleCuteCat/LWTools"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -50,9 +50,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "guyuliunian" => "weil218@163.com" }
-  # Or just: s.author    = "guyuliunian"
-  # s.authors            = { "guyuliunian" => "weil218@163.com" }
+  s.author             = { "LittleCuteCat" => "weil218@163.com" }
+  # Or just: s.author    = "LittleCuteCat"
+  # s.authors            = { "LittleCuteCat" => "weil218@163.com" }
   # s.social_media_url   = "http://twitter.com/guyuliunian"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/guyuliunian/LWTools.git", :tag => "2.0.2.4" }
+  s.source       = { :git => "https://github.com/LittleCuteCat/LWTools.git", :tag => "2.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
