@@ -270,7 +270,6 @@
 		3322A5D920A187900093407B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				33693BE920A96A090058E1BB /* Tools */,
 				3322A64620A3DCD80093407B /* LWAnimation */,
 				3322A60320A3DA810093407B /* LWPhotoBroswer */,
 				3322A5EB20A1A2280093407B /* Views */,
@@ -499,13 +498,6 @@
 				3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */,
 			);
 			path = LWAnimation;
-			sourceTree = "<group>";
-		};
-		33693BE920A96A090058E1BB /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		339D68A120B3F90300C9C587 /* RefreshDemo */ = {

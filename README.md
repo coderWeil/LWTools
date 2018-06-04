@@ -4,18 +4,16 @@
 ### 1.view添加分类，方便布局
 ```
 //例如：
-view.lw_height
-view.lw_width
-view.lw_x
-view.lw_y
-view.lw_minX
-view.lw_maxX
-view.lw_minY
-view.lw_maxY
-view.lw_centerX
-view.lw_centerY
-view.lw_size
-view.lw_origin
+view.height
+view.width
+view.left
+view.top
+view.right
+view.bottom
+view.centerX
+view.centerY
+view.size
+view.origin
 ```
 
 ### 2.手机可用存储空间的获取

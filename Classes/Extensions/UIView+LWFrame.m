@@ -9,148 +9,126 @@
 #import "UIView+LWFrame.h"
 
 @implementation UIView (LWFrame)
-- (void)setLw_x:(CGFloat)lw_x
-{
-    CGRect frame = self.frame;
-    frame.origin.x = lw_x;
-    self.frame = frame;
-}
 
-- (void)setLw_y:(CGFloat)lw_y
-{
-    CGRect frame = self.frame;
-    frame.origin.y = lw_y;
-    self.frame = frame;
-}
-
-- (CGFloat)lw_x
-{
-    return self.frame.origin.x;
-}
-
-- (CGFloat)lw_y
-{
-    return self.frame.origin.y;
-}
-
-- (void)setLw_centerX:(CGFloat)lw_centerX
+- (void)setCenterX:(CGFloat)centerX
 {
     CGPoint center = self.center;
-    center.x = lw_centerX;
+    center.x = centerX;
     self.center = center;
 }
 
-- (CGFloat)lw_centerX
+- (CGFloat)centerX
 {
     return self.center.x;
 }
 
-- (void)setLw_centerY:(CGFloat)lw_centerY
+- (void)setCenterY:(CGFloat)centerY
 {
     CGPoint center = self.center;
-    center.y = lw_centerY;
+    center.y = centerY;
     self.center = center;
 }
 
-- (CGFloat)lw_centerY
+- (CGFloat)centerY
 {
     return self.center.y;
 }
 
-- (void)setLw_width:(CGFloat)lw_width
+- (void)setWidth:(CGFloat)width
 {
     CGRect frame = self.frame;
-    frame.size.width = lw_width;
+    frame.size.width = width;
     self.frame = frame;
 }
 
-- (void)setLw_height:(CGFloat)lw_height
+- (void)setHeight:(CGFloat)height
 {
     CGRect frame = self.frame;
-    frame.size.height = lw_height;
+    frame.size.height = height;
     self.frame = frame;
 }
 
-- (CGFloat)lw_height
+- (CGFloat)height
 {
     return self.frame.size.height;
 }
 
-- (CGFloat)lw_width
+- (CGFloat)width
 {
     return self.frame.size.width;
 }
 
-- (void)setLw_size:(CGSize)lw_size
+- (void)setSize:(CGSize)size
 {
     CGRect frame = self.frame;
-    frame.size = lw_size;
+    frame.size = size;
     self.frame = frame;
 }
 
-- (CGSize)lw_size
+- (CGSize)size
 {
     return self.frame.size;
 }
 
-- (void)setLw_origin:(CGPoint)lw_origin
+- (void)setOrigin:(CGPoint)origin
 {
     CGRect frame = self.frame;
-    frame.origin = lw_origin;
+    frame.origin = origin;
     self.frame = frame;
 }
 
-- (CGPoint)lw_origin
+- (CGPoint)origin
 {
     return self.frame.origin;
 }
 
-- (void)setLw_minX:(CGFloat)lw_minX
+- (void)setTop:(CGFloat)top
 {
     CGRect frame = self.frame;
-    frame.origin.x = lw_minX;
+    frame.origin.y = top;
     self.frame = frame;
 }
 
-- (CGFloat)lw_minX
+- (CGFloat)top
 {
-    return CGRectGetMinX(self.frame);
+     return self.frame.origin.y;
+}
+- (void)setLeft:(CGFloat)left {
+    CGRect frame = self.frame;
+    frame.origin.x = left;
+    self.frame = frame;
+}
+- (CGFloat)left {
+    return self.frame.origin.x;
 }
 
-- (void)setLw_minY:(CGFloat)lw_minY
+- (void)setRight:(CGFloat)right
 {
     CGRect frame = self.frame;
-    frame.origin.y = lw_minY;
+    frame.origin.x = right - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)lw_minY
+- (CGFloat)right
 {
-    return CGRectGetMinY(self.frame);
+    return self.frame.origin.x + self.frame.size.width;
 }
 
-- (void)setLw_maxX:(CGFloat)lw_maxX
+- (void)setBottom:(CGFloat)bottom
 {
-    self.lw_maxX = self.lw_x +self.lw_width;
+    CGRect frame = self.frame;
+    frame.origin.y = bottom - frame.size.height;
+    self.frame = frame;
 }
 
-- (CGFloat)lw_maxX
+- (CGFloat)bottom
 {
-    return CGRectGetMaxX(self.frame);
-}
-
-- (void)setLw_maxY:(CGFloat)lw_maxY
-{
-    self.lw_minY = self.lw_y + self.lw_height;
-}
-
-- (CGFloat)lw_maxY{
-    return CGRectGetMaxY(self.frame);
+    return self.frame.origin.y + self.frame.size.height;
 }
 
 - (UIImage *)getImageFromView {
     CGFloat scale = [UIScreen mainScreen].scale;
-    UIGraphicsBeginImageContextWithOptions(self.lw_size, NO, scale);
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, scale);
     [self.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     return image;

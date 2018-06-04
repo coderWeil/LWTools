@@ -75,7 +75,7 @@ static NSInteger const LW_ITEM_TAG = 10;
     }
     _currentIndex = -1;
     _lineView = [UIView new];
-    _lineView.frame = CGRectMake(0, self.lw_height - 0.5, self.lw_width, 0.5);
+    _lineView.frame = CGRectMake(0, self.height - 0.5, self.width, 0.5);
     [self addSubview:_lineView];
     _progressView = [[UIView alloc] init];
     [self addSubview:_progressView];
@@ -108,7 +108,7 @@ static NSInteger const LW_ITEM_TAG = 10;
         }
         itemTotalWidth += titleSize.width + 30;
     }
-    CGFloat xPos = (self.lw_width - itemTotalWidth - (_buttonArr.count - 1) * _itemMargin) / 2.0;
+    CGFloat xPos = (self.width - itemTotalWidth - (_buttonArr.count - 1) * _itemMargin) / 2.0;
     UIButton *lastItem = nil;
     for (int i = 0; i < _buttonArr.count; i++) {
         UIButton *button = _buttonArr[i];
@@ -130,20 +130,20 @@ static NSInteger const LW_ITEM_TAG = 10;
             btnCenterX = xPos + (titleSize.width + 30) * 0.5;
             progressCenterX = xPos + (textSize.width + 30) * 0.5;
         }else {
-            btnCenterX = lastItem.lw_maxX + _itemMargin + (titleSize.width + 30) * 0.5;
-            progressCenterX = lastItem.lw_maxX + _itemMargin + (textSize.width + 30) * 0.5;
+            btnCenterX = lastItem.right + _itemMargin + (titleSize.width + 30) * 0.5;
+            progressCenterX = lastItem.right + _itemMargin + (textSize.width + 30) * 0.5;
         }
-        button.center = CGPointMake(btnCenterX, _topMargin + (self.lw_height - _topMargin) * 0.5);
+        button.center = CGPointMake(btnCenterX, _topMargin + (self.height - _topMargin) * 0.5);
         button.bounds = CGRectMake(0, 0, titleSize.width + 30 , titleSize.height);
         if (i == 0) {
             if (_enableTextAnimation) {
                 button.transform = CGAffineTransformMakeScale(1.2, 1.2);
             }
-            _progressView.center = CGPointMake(progressCenterX, (self.lw_height - button.lw_maxY) / 3.0 + button.lw_maxY);
+            _progressView.center = CGPointMake(progressCenterX, (self.height - button.bottom) / 3.0 + button.bottom);
             _progressView.bounds = CGRectMake(0, 0, 15, 2);
         }
         UIView *badgeView = _badgeArr[i];
-        badgeView.frame = CGRectMake(button.lw_maxX - 15, button.lw_minY, 6.0, 6.0);
+        badgeView.frame = CGRectMake(button.right - 15, button.top, 6.0, 6.0);
         lastItem = button;
     }
     _progressView.backgroundColor = _progressColor;
@@ -172,7 +172,7 @@ static NSInteger const LW_ITEM_TAG = 10;
         textSize =  [text boundingRectWithSize:CGSizeMake(HUGE, HUGE) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:_selectedFont,NSForegroundColorAttributeName:_selectedColor} context:nil].size;
     }
     [UIView animateWithDuration:0.25 animations:^{
-        self.progressView.center = CGPointMake(self.currentButton.lw_centerX - textSize.width * 0.5 * (self.enableTextAnimation ? 1.2 : 1.0),  (self.lw_height - self.currentButton.lw_maxY) / 3.0 + self.currentButton.lw_maxY);
+        self.progressView.center = CGPointMake(self.currentButton.centerX - textSize.width * 0.5 * (self.enableTextAnimation ? 1.2 : 1.0),  (self.height - self.currentButton.bottom) / 3.0 + self.currentButton.bottom);
     } completion:^(BOOL finished) {
         self.currentButton.selected = YES;
         self.currentButton.titleLabel.font = self.selectedFont;

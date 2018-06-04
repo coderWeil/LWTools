@@ -28,7 +28,7 @@
     [_animationButton setImage:[UIImage imageNamed:@"detail_zan_selected"] forState:UIControlStateSelected];
     [_animationButton addTarget:self action:@selector(zanAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_animationButton];
-    _animationButton.center = CGPointMake(self.view.lw_width * 0.5, self.view.lw_height * 0.5);
+    _animationButton.center = CGPointMake(self.view.width * 0.5, self.view.height * 0.5);
     _animationButton.bounds = CGRectMake(0, 0, 50, 20);
 }
 
