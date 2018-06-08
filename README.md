@@ -66,3 +66,5 @@ return image;
 ![gif动图展示](https://github.com/guyuliunian/LWTools/blob/master/点赞动画.gif)
 
 ### 10.scrollView长图生成
+
+### 11.类似饿了么订单详情顶部的渐变动画效果
