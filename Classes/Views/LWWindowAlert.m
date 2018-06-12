@@ -30,7 +30,8 @@ static UIWindow *_customWindow;
     _customWindow.hidden = YES;
 }
 + (void)clickTopWindowAlert {
-    
+    UIWindow *keywindow = [UIApplication sharedApplication].keyWindow;
+    [self enumerateAllScrollViewsInView:keywindow];
 }
 + (void)enumerateAllScrollViewsInView:(UIView *)view {
     for (UIView *subView in view.subviews) {
