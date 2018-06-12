@@ -68,3 +68,13 @@ return image;
 ### 10.scrollView长图生成
 
 ### 11.类似饿了么订单详情顶部的渐变动画效果
+
+### 12. 自定义window，放在状态栏位置，实现点击状态栏，页面中scrollView滚动到顶部效果
+调用方法：
+```
+[LWWindowAlert enableCustomWindowAlert];
+```
+如果不想要，调用下面：
+```
+[LWWindowAlert disableCustomWindowAlert];
+```

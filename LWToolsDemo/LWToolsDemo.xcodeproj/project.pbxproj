@@ -70,6 +70,7 @@
 		3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */; };
 		3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */; };
 		3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */; };
+		3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3382098B20CFA4F300261C9F /* LWWindowAlert.m */; };
 		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
 		339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */; };
 		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
@@ -193,6 +194,8 @@
 		3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRippleMultiple.m; sourceTree = "<group>"; };
 		3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
 		3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
+		3382098A20CFA4F300261C9F /* LWWindowAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
+		3382098B20CFA4F300261C9F /* LWWindowAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWWindowAlert.m; sourceTree = "<group>"; };
 		339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
 		339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
 		339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
@@ -321,6 +324,8 @@
 				339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */,
 				339D68C720B655F000C9C587 /* LWLineLabel.h */,
 				339D68C820B655F000C9C587 /* LWLineLabel.m */,
+				3382098A20CFA4F300261C9F /* LWWindowAlert.h */,
+				3382098B20CFA4F300261C9F /* LWWindowAlert.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -680,6 +685,7 @@
 				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
 				3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */,
 				339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */,
+				3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */,
 				3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */,
 				3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */,
 				3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */,
