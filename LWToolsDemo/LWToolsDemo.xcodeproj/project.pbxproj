@@ -38,28 +38,6 @@
 		3322A64020A3DC090093407B /* Expression09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63520A3DC090093407B /* Expression09.jpeg */; };
 		3322A64120A3DC090093407B /* Expression05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63620A3DC090093407B /* Expression05.jpeg */; };
 		3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64420A3DCA10093407B /* LWAnimationViewController.m */; };
-		3322A64920A3DCE20093407B /* LWAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64820A3DCE20093407B /* LWAnimationView.m */; };
-		3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */; };
-		3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */; };
-		3322A65220A3DD7E0093407B /* LWAnimationViewLineScaleParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */; };
-		3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */; };
-		3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */; };
-		3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */; };
-		3322A65E20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */; };
-		3322A66120A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */; };
-		3322A66420A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */; };
-		3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */; };
-		3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */; };
-		3322A67F20A3DE810093407B /* LWAnimationViewBallGridPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */; };
-		3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */; };
-		3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */; };
-		3322A68220A3DE810093407B /* LWAnimationViewBallRotateChase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */; };
-		3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */; };
-		3322A68420A3DE810093407B /* LWAnimationViewBallPulseRise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */; };
-		3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */; };
-		3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */; };
-		3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */; };
-		3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */; };
 		3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */; };
 		3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3382098B20CFA4F300261C9F /* LWWindowAlert.m */; };
 		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
@@ -120,50 +98,6 @@
 		3322A63620A3DC090093407B /* Expression05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression05.jpeg; sourceTree = "<group>"; };
 		3322A64320A3DCA10093407B /* LWAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewController.h; sourceTree = "<group>"; };
 		3322A64420A3DCA10093407B /* LWAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewController.m; sourceTree = "<group>"; };
-		3322A64720A3DCE20093407B /* LWAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationView.h; sourceTree = "<group>"; };
-		3322A64820A3DCE20093407B /* LWAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationView.m; sourceTree = "<group>"; };
-		3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationStyleBase.m; sourceTree = "<group>"; };
-		3322A64B20A3DD260093407B /* LWAnimationStyleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationStyleBase.h; sourceTree = "<group>"; };
-		3322A64D20A3DD660093407B /* LWAnimationViewLineScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineScale.h; sourceTree = "<group>"; };
-		3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineScale.m; sourceTree = "<group>"; };
-		3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineScaleParty.m; sourceTree = "<group>"; };
-		3322A65120A3DD7E0093407B /* LWAnimationViewLineScaleParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineScaleParty.h; sourceTree = "<group>"; };
-		3322A65320A3DDB40093407B /* LWAnimationViewLinePulseOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLinePulseOut.h; sourceTree = "<group>"; };
-		3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLinePulseOut.m; sourceTree = "<group>"; };
-		3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewLineAudioEqualizer.m; sourceTree = "<group>"; };
-		3322A65720A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewLineAudioEqualizer.h; sourceTree = "<group>"; };
-		3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallBeat.m; sourceTree = "<group>"; };
-		3322A65A20A3DDEE0093407B /* LWAnimationViewBallBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallBeat.h; sourceTree = "<group>"; };
-		3322A65C20A3DE0A0093407B /* LWAnimationViewBallClipRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotate.h; sourceTree = "<group>"; };
-		3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotate.m; sourceTree = "<group>"; };
-		3322A65F20A3DE240093407B /* LWAnimationViewBallClipRotatePulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotatePulse.h; sourceTree = "<group>"; };
-		3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotatePulse.m; sourceTree = "<group>"; };
-		3322A66220A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallClipRotateMultiple.h; sourceTree = "<group>"; };
-		3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallClipRotateMultiple.m; sourceTree = "<group>"; };
-		3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallGridBeat.m; sourceTree = "<group>"; };
-		3322A66620A3DE540093407B /* LWAnimationViewBallGridBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallGridBeat.h; sourceTree = "<group>"; };
-		3322A66820A3DE7C0093407B /* LWAnimationViewBallScaleRippleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScaleRippleMultiple.h; sourceTree = "<group>"; };
-		3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulse.m; sourceTree = "<group>"; };
-		3322A66A20A3DE7D0093407B /* LWAnimationViewBallGridPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallGridPulse.h; sourceTree = "<group>"; };
-		3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallGridPulse.m; sourceTree = "<group>"; };
-		3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulseSyn.m; sourceTree = "<group>"; };
-		3322A66D20A3DE7D0093407B /* LWAnimationViewBallSaleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallSaleMultiple.h; sourceTree = "<group>"; };
-		3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRipple.m; sourceTree = "<group>"; };
-		3322A66F20A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallSpinFadeLoad.h; sourceTree = "<group>"; };
-		3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotateChase.m; sourceTree = "<group>"; };
-		3322A67120A3DE7E0093407B /* LWAnimationViewBallRotateChase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallRotateChase.h; sourceTree = "<group>"; };
-		3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallSpinFadeLoad.m; sourceTree = "<group>"; };
-		3322A67320A3DE7F0093407B /* LWAnimationViewBallPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulse.h; sourceTree = "<group>"; };
-		3322A67420A3DE7F0093407B /* LWAnimationViewBallRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallRotate.h; sourceTree = "<group>"; };
-		3322A67520A3DE7F0093407B /* LWAnimationViewBallPulseRise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseRise.h; sourceTree = "<group>"; };
-		3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallPulseRise.m; sourceTree = "<group>"; };
-		3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScale.m; sourceTree = "<group>"; };
-		3322A67820A3DE800093407B /* LWAnimationViewBallScaleRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScaleRipple.h; sourceTree = "<group>"; };
-		3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallSaleMultiple.m; sourceTree = "<group>"; };
-		3322A67A20A3DE800093407B /* LWAnimationViewBallScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallScale.h; sourceTree = "<group>"; };
-		3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewBallPulseSyn.h; sourceTree = "<group>"; };
-		3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallRotate.m; sourceTree = "<group>"; };
-		3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewBallScaleRippleMultiple.m; sourceTree = "<group>"; };
 		3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
 		3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
 		3382098A20CFA4F300261C9F /* LWWindowAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
@@ -245,7 +179,6 @@
 		3322A5D920A187900093407B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3322A64620A3DCD80093407B /* LWAnimation */,
 				3322A5EB20A1A2280093407B /* Views */,
 				3322A5DA20A187900093407B /* EncryDesEncryTool */,
 				3322A5E320A187900093407B /* Extensions */,
@@ -365,57 +298,6 @@
 				3322A64420A3DCA10093407B /* LWAnimationViewController.m */,
 			);
 			path = AnimationDemo;
-			sourceTree = "<group>";
-		};
-		3322A64620A3DCD80093407B /* LWAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				3322A64720A3DCE20093407B /* LWAnimationView.h */,
-				3322A64820A3DCE20093407B /* LWAnimationView.m */,
-				3322A64B20A3DD260093407B /* LWAnimationStyleBase.h */,
-				3322A64A20A3DD260093407B /* LWAnimationStyleBase.m */,
-				3322A64D20A3DD660093407B /* LWAnimationViewLineScale.h */,
-				3322A64E20A3DD660093407B /* LWAnimationViewLineScale.m */,
-				3322A65120A3DD7E0093407B /* LWAnimationViewLineScaleParty.h */,
-				3322A65020A3DD7E0093407B /* LWAnimationViewLineScaleParty.m */,
-				3322A65320A3DDB40093407B /* LWAnimationViewLinePulseOut.h */,
-				3322A65420A3DDB40093407B /* LWAnimationViewLinePulseOut.m */,
-				3322A65720A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.h */,
-				3322A65620A3DDD10093407B /* LWAnimationViewLineAudioEqualizer.m */,
-				3322A65A20A3DDEE0093407B /* LWAnimationViewBallBeat.h */,
-				3322A65920A3DDEE0093407B /* LWAnimationViewBallBeat.m */,
-				3322A65C20A3DE0A0093407B /* LWAnimationViewBallClipRotate.h */,
-				3322A65D20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m */,
-				3322A65F20A3DE240093407B /* LWAnimationViewBallClipRotatePulse.h */,
-				3322A66020A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m */,
-				3322A66220A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.h */,
-				3322A66320A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m */,
-				3322A66620A3DE540093407B /* LWAnimationViewBallGridBeat.h */,
-				3322A66520A3DE540093407B /* LWAnimationViewBallGridBeat.m */,
-				3322A66A20A3DE7D0093407B /* LWAnimationViewBallGridPulse.h */,
-				3322A66B20A3DE7D0093407B /* LWAnimationViewBallGridPulse.m */,
-				3322A67320A3DE7F0093407B /* LWAnimationViewBallPulse.h */,
-				3322A66920A3DE7D0093407B /* LWAnimationViewBallPulse.m */,
-				3322A67520A3DE7F0093407B /* LWAnimationViewBallPulseRise.h */,
-				3322A67620A3DE7F0093407B /* LWAnimationViewBallPulseRise.m */,
-				3322A67B20A3DE800093407B /* LWAnimationViewBallPulseSyn.h */,
-				3322A66C20A3DE7D0093407B /* LWAnimationViewBallPulseSyn.m */,
-				3322A67420A3DE7F0093407B /* LWAnimationViewBallRotate.h */,
-				3322A67C20A3DE800093407B /* LWAnimationViewBallRotate.m */,
-				3322A67120A3DE7E0093407B /* LWAnimationViewBallRotateChase.h */,
-				3322A67020A3DE7E0093407B /* LWAnimationViewBallRotateChase.m */,
-				3322A66D20A3DE7D0093407B /* LWAnimationViewBallSaleMultiple.h */,
-				3322A67920A3DE800093407B /* LWAnimationViewBallSaleMultiple.m */,
-				3322A67A20A3DE800093407B /* LWAnimationViewBallScale.h */,
-				3322A67720A3DE7F0093407B /* LWAnimationViewBallScale.m */,
-				3322A67820A3DE800093407B /* LWAnimationViewBallScaleRipple.h */,
-				3322A66E20A3DE7E0093407B /* LWAnimationViewBallScaleRipple.m */,
-				3322A66820A3DE7C0093407B /* LWAnimationViewBallScaleRippleMultiple.h */,
-				3322A67D20A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m */,
-				3322A66F20A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.h */,
-				3322A67220A3DE7E0093407B /* LWAnimationViewBallSpinFadeLoad.m */,
-			);
-			path = LWAnimation;
 			sourceTree = "<group>";
 		};
 		339D68A120B3F90300C9C587 /* RefreshDemo */ = {
@@ -557,47 +439,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3322A67F20A3DE810093407B /* LWAnimationViewBallGridPulse.m in Sources */,
-				3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */,
-				3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */,
 				3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */,
-				3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */,
 				3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */,
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
 				339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */,
-				3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */,
 				339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */,
 				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
-				3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */,
-				3322A68820A3DE810093407B /* LWAnimationViewBallScaleRippleMultiple.m in Sources */,
 				3322A5E720A187900093407B /* EncryTool.m in Sources */,
-				3322A66120A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m in Sources */,
 				3322A5E620A187900093407B /* DesEncryTool.m in Sources */,
 				3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */,
-				3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */,
-				3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */,
 				3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */,
 				339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */,
 				3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */,
-				3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */,
 				3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */,
 				3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */,
-				3322A68420A3DE810093407B /* LWAnimationViewBallPulseRise.m in Sources */,
-				3322A66420A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m in Sources */,
-				3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */,
 				3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */,
 				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
 				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
-				3322A65520A3DDB50093407B /* LWAnimationViewLinePulseOut.m in Sources */,
 				339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */,
 				3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */,
-				3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */,
-				3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */,
-				3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */,
-				3322A68220A3DE810093407B /* LWAnimationViewBallRotateChase.m in Sources */,
-				3322A65220A3DD7E0093407B /* LWAnimationViewLineScaleParty.m in Sources */,
-				3322A65E20A3DE0A0093407B /* LWAnimationViewBallClipRotate.m in Sources */,
-				3322A64920A3DCE20093407B /* LWAnimationView.m in Sources */,
 				3322A5EA20A187900093407B /* UIView+LWFrame.m in Sources */,
 				3322A5D020A1864D0093407B /* main.m in Sources */,
 				3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */,

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57DA1DBBD07A72979249183E8E9F5A6B"
-               BlueprintName = "Pods-LWToolsDemo"
+               BlueprintIdentifier = "E2A2A3DA3C06AF48F0812114E9DAD536"
+               BlueprintName = "LWAnimation"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-LWToolsDemo.a">
+               BuildableName = "libLWAnimation.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
