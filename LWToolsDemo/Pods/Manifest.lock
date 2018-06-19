@@ -1,4 +1,6 @@
 PODS:
+  - LWPhotoBrowser (0.0.1):
+    - SDWebImage
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
   - SDWebImage (4.3.3):
@@ -6,21 +8,24 @@ PODS:
   - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
+  - LWPhotoBrowser
   - Masonry
   - MJRefresh
   - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - LWPhotoBrowser
     - Masonry
     - MJRefresh
     - SDWebImage
 
 SPEC CHECKSUMS:
+  LWPhotoBrowser: c23ee5f1ac5de756c4879a3344f0147f2d79a8a6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: 70592d35afe84ac9145906f368dfe424a389fd2e
+PODFILE CHECKSUM: 5683917330d125ebe64e1f4255232f9b8c9645e5
 
 COCOAPODS: 1.5.2

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93D0BEB8202D12A41DD44EDDB4A82CC0"
-               BlueprintName = "SDWebImage"
+               BlueprintIdentifier = "400D980C48E45CE3A8BD8DACAF703AA0"
+               BlueprintName = "LWPhotoBrowser"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSDWebImage.a">
+               BuildableName = "libLWPhotoBrowser.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

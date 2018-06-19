@@ -24,15 +24,6 @@
 		3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */; };
 		3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FE20A2F3ED0093407B /* LWViewImageController.m */; };
 		3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60120A2F3FB0093407B /* LWSegmentViewController.m */; };
-		3322A61B20A3DA810093407B /* LWPhotoBrowserPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */; };
-		3322A61C20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */; };
-		3322A61D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */; };
-		3322A61E20A3DA810093407B /* LWPhotoBrowserPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */; };
-		3322A61F20A3DA810093407B /* LWPhotoBrowserTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */; };
-		3322A62020A3DA810093407B /* LWPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61020A3DA810093407B /* LWPhotoBrowserController.m */; };
-		3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61420A3DA810093407B /* LWPhotoModel.m */; };
-		3322A62220A3DA810093407B /* LWPhotoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61720A3DA810093407B /* LWPhotoZoomView.m */; };
-		3322A62320A3DA810093407B /* LWPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A61820A3DA810093407B /* LWPhotoViewCell.m */; };
 		3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A62620A3DB1D0093407B /* LWPhotosViewController.m */; };
 		3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A62920A3DB350093407B /* LYPictureFirstPageCell.m */; };
 		3322A63720A3DC090093407B /* Expression10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A62C20A3DC090093407B /* Expression10.jpeg */; };
@@ -112,25 +103,6 @@
 		3322A5FE20A2F3ED0093407B /* LWViewImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewImageController.m; sourceTree = "<group>"; };
 		3322A60020A2F3FB0093407B /* LWSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentViewController.h; sourceTree = "<group>"; };
 		3322A60120A2F3FB0093407B /* LWSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentViewController.m; sourceTree = "<group>"; };
-		3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserPushTransition.m; sourceTree = "<group>"; };
-		3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserDrivenInteractive.m; sourceTree = "<group>"; };
-		3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserInteractiveTransition.m; sourceTree = "<group>"; };
-		3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserPopTransition.m; sourceTree = "<group>"; };
-		3322A60920A3DA810093407B /* LWPhotoBrowserTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserTransition.h; sourceTree = "<group>"; };
-		3322A60A20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserDrivenInteractive.h; sourceTree = "<group>"; };
-		3322A60B20A3DA810093407B /* LWPhotoBrowserPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserPushTransition.h; sourceTree = "<group>"; };
-		3322A60C20A3DA810093407B /* LWPhotoBrowserPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserPopTransition.h; sourceTree = "<group>"; };
-		3322A60D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserInteractiveTransition.h; sourceTree = "<group>"; };
-		3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserTransition.m; sourceTree = "<group>"; };
-		3322A61020A3DA810093407B /* LWPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoBrowserController.m; sourceTree = "<group>"; };
-		3322A61120A3DA810093407B /* LWPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowserController.h; sourceTree = "<group>"; };
-		3322A61320A3DA810093407B /* LWPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoModel.h; sourceTree = "<group>"; };
-		3322A61420A3DA810093407B /* LWPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoModel.m; sourceTree = "<group>"; };
-		3322A61620A3DA810093407B /* LWPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoViewCell.h; sourceTree = "<group>"; };
-		3322A61720A3DA810093407B /* LWPhotoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoZoomView.m; sourceTree = "<group>"; };
-		3322A61820A3DA810093407B /* LWPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotoViewCell.m; sourceTree = "<group>"; };
-		3322A61920A3DA810093407B /* LWPhotoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoZoomView.h; sourceTree = "<group>"; };
-		3322A61A20A3DA810093407B /* LWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotoBrowser.h; sourceTree = "<group>"; };
 		3322A62520A3DB1D0093407B /* LWPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPhotosViewController.h; sourceTree = "<group>"; };
 		3322A62620A3DB1D0093407B /* LWPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPhotosViewController.m; sourceTree = "<group>"; };
 		3322A62820A3DB350093407B /* LYPictureFirstPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPictureFirstPageCell.h; sourceTree = "<group>"; };
@@ -274,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				3322A64620A3DCD80093407B /* LWAnimation */,
-				3322A60320A3DA810093407B /* LWPhotoBroswer */,
 				3322A5EB20A1A2280093407B /* Views */,
 				3322A5DA20A187900093407B /* EncryDesEncryTool */,
 				3322A5E320A187900093407B /* Extensions */,
@@ -355,64 +326,6 @@
 				3322A60120A2F3FB0093407B /* LWSegmentViewController.m */,
 			);
 			path = SegmentControlDemo;
-			sourceTree = "<group>";
-		};
-		3322A60320A3DA810093407B /* LWPhotoBroswer */ = {
-			isa = PBXGroup;
-			children = (
-				3322A60420A3DA810093407B /* Transition */,
-				3322A60F20A3DA810093407B /* Controller */,
-				3322A61220A3DA810093407B /* Model */,
-				3322A61520A3DA810093407B /* View */,
-				3322A61A20A3DA810093407B /* LWPhotoBrowser.h */,
-			);
-			path = LWPhotoBroswer;
-			sourceTree = "<group>";
-		};
-		3322A60420A3DA810093407B /* Transition */ = {
-			isa = PBXGroup;
-			children = (
-				3322A60D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.h */,
-				3322A60720A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m */,
-				3322A60A20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.h */,
-				3322A60620A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m */,
-				3322A60B20A3DA810093407B /* LWPhotoBrowserPushTransition.h */,
-				3322A60520A3DA810093407B /* LWPhotoBrowserPushTransition.m */,
-				3322A60C20A3DA810093407B /* LWPhotoBrowserPopTransition.h */,
-				3322A60820A3DA810093407B /* LWPhotoBrowserPopTransition.m */,
-				3322A60920A3DA810093407B /* LWPhotoBrowserTransition.h */,
-				3322A60E20A3DA810093407B /* LWPhotoBrowserTransition.m */,
-			);
-			path = Transition;
-			sourceTree = "<group>";
-		};
-		3322A60F20A3DA810093407B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3322A61020A3DA810093407B /* LWPhotoBrowserController.m */,
-				3322A61120A3DA810093407B /* LWPhotoBrowserController.h */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3322A61220A3DA810093407B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3322A61320A3DA810093407B /* LWPhotoModel.h */,
-				3322A61420A3DA810093407B /* LWPhotoModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3322A61520A3DA810093407B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3322A61620A3DA810093407B /* LWPhotoViewCell.h */,
-				3322A61720A3DA810093407B /* LWPhotoZoomView.m */,
-				3322A61820A3DA810093407B /* LWPhotoViewCell.m */,
-				3322A61920A3DA810093407B /* LWPhotoZoomView.h */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3322A62420A3DB060093407B /* PhotoBrowser */ = {
@@ -644,10 +557,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3322A61F20A3DA810093407B /* LWPhotoBrowserTransition.m in Sources */,
 				3322A67F20A3DE810093407B /* LWAnimationViewBallGridPulse.m in Sources */,
 				3322A64F20A3DD660093407B /* LWAnimationViewLineScale.m in Sources */,
-				3322A62320A3DA810093407B /* LWPhotoViewCell.m in Sources */,
 				3322A68020A3DE810093407B /* LWAnimationViewBallPulseSyn.m in Sources */,
 				3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */,
 				3322A68120A3DE810093407B /* LWAnimationViewBallScaleRipple.m in Sources */,
@@ -655,7 +566,6 @@
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
 				339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */,
 				3322A64C20A3DD270093407B /* LWAnimationStyleBase.m in Sources */,
-				3322A61B20A3DA810093407B /* LWPhotoBrowserPushTransition.m in Sources */,
 				339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */,
 				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
 				3322A65820A3DDD20093407B /* LWAnimationViewLineAudioEqualizer.m in Sources */,
@@ -664,21 +574,16 @@
 				3322A66120A3DE240093407B /* LWAnimationViewBallClipRotatePulse.m in Sources */,
 				3322A5E620A187900093407B /* DesEncryTool.m in Sources */,
 				3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */,
-				3322A61E20A3DA810093407B /* LWPhotoBrowserPopTransition.m in Sources */,
 				3322A68520A3DE810093407B /* LWAnimationViewBallScale.m in Sources */,
 				3322A65B20A3DDEE0093407B /* LWAnimationViewBallBeat.m in Sources */,
 				3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */,
 				339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */,
 				3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */,
 				3322A67E20A3DE810093407B /* LWAnimationViewBallPulse.m in Sources */,
-				3322A61D20A3DA810093407B /* LWPhotoBrowserInteractiveTransition.m in Sources */,
 				3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */,
-				3322A61C20A3DA810093407B /* LWPhotoBrowserDrivenInteractive.m in Sources */,
 				3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */,
-				3322A62020A3DA810093407B /* LWPhotoBrowserController.m in Sources */,
 				3322A68420A3DE810093407B /* LWAnimationViewBallPulseRise.m in Sources */,
 				3322A66420A3DE3C0093407B /* LWAnimationViewBallClipRotateMultiple.m in Sources */,
-				3322A62220A3DA810093407B /* LWPhotoZoomView.m in Sources */,
 				3322A68620A3DE810093407B /* LWAnimationViewBallSaleMultiple.m in Sources */,
 				3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */,
 				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
@@ -687,7 +592,6 @@
 				339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */,
 				3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */,
 				3322A68320A3DE810093407B /* LWAnimationViewBallSpinFadeLoad.m in Sources */,
-				3322A62120A3DA810093407B /* LWPhotoModel.m in Sources */,
 				3322A66720A3DE550093407B /* LWAnimationViewBallGridBeat.m in Sources */,
 				3322A68720A3DE810093407B /* LWAnimationViewBallRotate.m in Sources */,
 				3322A68220A3DE810093407B /* LWAnimationViewBallRotateChase.m in Sources */,

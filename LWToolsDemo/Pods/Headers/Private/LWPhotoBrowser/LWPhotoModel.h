@@ -1,0 +1,1 @@
+../../../LWPhotoBrowser/Classes/LWPhotoBroswer/Model/LWPhotoModel.h
