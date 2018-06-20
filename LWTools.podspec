@@ -16,16 +16,16 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LittleCuteCat/LWTools.git", :tag => "#{s.version}" }
 
-  s.source_files  = "LWTools/*.{h,m}"
+  s.source_files  = 'LWTools/*.{h,m}'
 
-  s.subspec 'Extensions' do |e|
-     e.source_files = "LWTools/Extension/*.{h,m}"
+  s.subspec 'Extensions' do |se|
+     se.source_files = 'LWTools/Extension/*'
   end
-  s.subspec 'Views' do |v|
-     v.source_files = "LWTools/Views/*.{h,m}"
+  s.subspec 'Views' do |sv|
+     sv.source_files = "LWTools/Views/*"
   end
-  s.subspec 'EncryDesEncyrTool' do |ed|
-     ed.source_files = "LWTools/EncryDesEncryTool/*.{h,m}"
+  s.subspec 'EncryDesEncryTool' do |ed|
+     ed.source_files = 'LWTools/EncryDesEncryTool/*'
   end
 
   s.dependency "SDWebImage"
