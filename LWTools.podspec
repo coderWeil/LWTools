@@ -26,16 +26,4 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'LWTools/*'
 
-  s.subspec 'Extensions' do |se|
-     se.source_files = 'LWTools/Extension/*.{h,m}'
-  end
-
-  s.subspec 'Views' do |sv|
-     sv.source_files = "LWTools/Views/*.{h,m}"
-  end
-
-  s.subspec 'EncryDesEncryTool' do |ed|
-     ed.source_files = 'LWTools/EncryDesEncryTool/*.{h,m}'
-  end
- 
 end
