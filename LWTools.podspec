@@ -16,18 +16,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LittleCuteCat/LWTools.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'LWTools/*.{h,m}'
-
-  s.subspec 'Extensions' do |se|
-     se.source_files = 'LWTools/Extension/*'
-  end
-  s.subspec 'Views' do |sv|
-     sv.source_files = "LWTools/Views/*"
-  end
-  s.subspec 'EncryDesEncryTool' do |ed|
-     ed.source_files = 'LWTools/EncryDesEncryTool/*'
-  end
-
   s.dependency "SDWebImage"
    
   s.dependency "MJRefresh"
@@ -35,5 +23,19 @@ Pod::Spec.new do |s|
   s.dependency "LWPhotoBrowser"
 
   s.dependency "LWAnimation"
+
+  s.source_files  = 'LWTools/*.{h,m}'
+
+  s.subspec 'Extensions' do |se|
+     se.source_files = 'LWTools/Extension/*.{h,m}'
+  end
+
+  s.subspec 'Views' do |sv|
+     sv.source_files = "LWTools/Views/*.{h,m}"
+  end
+
+  s.subspec 'EncryDesEncryTool' do |ed|
+     ed.source_files = 'LWTools/EncryDesEncryTool/*.{h,m}'
+  end
  
 end
