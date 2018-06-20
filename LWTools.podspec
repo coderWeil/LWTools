@@ -18,10 +18,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Classes","Classes/**/*.{h,m}"
 
-  s.subspec 'Views' do |sv|
-    sv.source_files = "Classes/Views/*.{h.m}"
-  end  
-
   s.dependency "SDWebImage"
    
   s.dependency "MJRefresh"
