@@ -19,13 +19,13 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes/*.{h,m}"
 
   s.subspec 'Extensions' do |e|
-     e.source_files = "Extension/*.{h,m}"
+     e.source_files = "Classes/Extension/*.{h,m}"
   end
   s.subspec 'Views' do |v|
-     v.source_files = "Views/*.{h,m}"
+     v.source_files = "Classes/Views/*.{h,m}"
   end
   s.subspec 'EncryDesEncyrTool' do |ed|
-     ed.source_files = "EncryDesEncryTool/*.{h,m}"
+     ed.source_files = "Classes/EncryDesEncryTool/*.{h,m}"
   end
 
   s.dependency "SDWebImage"
