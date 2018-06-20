@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
 
   s.dependency "LWAnimation"
 
-  s.source_files  = 'LWTools/*.{h,m}'
+  s.source_files  = 'Classes/*.{h,m}'
 
 end
