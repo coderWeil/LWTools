@@ -30,19 +30,19 @@
 		3322A64020A3DC090093407B /* Expression09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63520A3DC090093407B /* Expression09.jpeg */; };
 		3322A64120A3DC090093407B /* Expression05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63620A3DC090093407B /* Expression05.jpeg */; };
 		3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64420A3DCA10093407B /* LWAnimationViewController.m */; };
-		335C452720E482BC008F0543 /* DesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450C20E482BB008F0543 /* DesEncryTool.m */; };
-		335C452820E482BC008F0543 /* EncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450D20E482BB008F0543 /* EncryTool.m */; };
-		335C452920E482BC008F0543 /* EncryDesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450E20E482BB008F0543 /* EncryDesEncryTool.m */; };
-		335C452A20E482BC008F0543 /* YGDeviceSpaceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */; };
-		335C452B20E482BC008F0543 /* UIView+LWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451620E482BB008F0543 /* UIView+LWFrame.m */; };
-		335C452C20E482BC008F0543 /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */; };
-		335C452D20E482BC008F0543 /* LWEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451920E482BB008F0543 /* LWEmitterView.m */; };
-		335C452E20E482BC008F0543 /* LWLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451A20E482BB008F0543 /* LWLineLabel.m */; };
-		335C452F20E482BC008F0543 /* LWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451F20E482BB008F0543 /* LWSegmentControl.m */; };
-		335C453020E482BC008F0543 /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452120E482BB008F0543 /* LWWindowAlert.m */; };
-		335C453120E482BC008F0543 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452220E482BB008F0543 /* LWRefreshFooter.m */; };
-		335C453220E482BC008F0543 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452320E482BB008F0543 /* LWRefreshHeader.m */; };
-		335C453320E482BC008F0543 /* LWAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452520E482BB008F0543 /* LWAnimationButton.m */; };
+		335C455420E4847A008F0543 /* DesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C453920E4847A008F0543 /* DesEncryTool.m */; };
+		335C455520E4847A008F0543 /* EncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C453A20E4847A008F0543 /* EncryTool.m */; };
+		335C455620E4847A008F0543 /* EncryDesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C453B20E4847A008F0543 /* EncryDesEncryTool.m */; };
+		335C455720E4847A008F0543 /* YGDeviceSpaceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C453C20E4847A008F0543 /* YGDeviceSpaceTool.m */; };
+		335C455820E4847A008F0543 /* UIView+LWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454320E4847A008F0543 /* UIView+LWFrame.m */; };
+		335C455920E4847A008F0543 /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454420E4847A008F0543 /* UIScrollView+LWExtension.m */; };
+		335C455A20E4847A008F0543 /* LWEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454620E4847A008F0543 /* LWEmitterView.m */; };
+		335C455B20E4847A008F0543 /* LWLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454720E4847A008F0543 /* LWLineLabel.m */; };
+		335C455C20E4847A008F0543 /* LWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454C20E4847A008F0543 /* LWSegmentControl.m */; };
+		335C455D20E4847A008F0543 /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454E20E4847A008F0543 /* LWWindowAlert.m */; };
+		335C455E20E4847A008F0543 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C454F20E4847A008F0543 /* LWRefreshFooter.m */; };
+		335C455F20E4847A008F0543 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C455020E4847A008F0543 /* LWRefreshHeader.m */; };
+		335C456020E4847A008F0543 /* LWAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C455220E4847A008F0543 /* LWAnimationButton.m */; };
 		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
 		8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */; };
 /* End PBXBuildFile section */
@@ -82,32 +82,32 @@
 		3322A63620A3DC090093407B /* Expression05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression05.jpeg; sourceTree = "<group>"; };
 		3322A64320A3DCA10093407B /* LWAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewController.h; sourceTree = "<group>"; };
 		3322A64420A3DCA10093407B /* LWAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewController.m; sourceTree = "<group>"; };
-		335C450B20E482BB008F0543 /* YGDeviceSpaceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDeviceSpaceTool.h; sourceTree = "<group>"; };
-		335C450C20E482BB008F0543 /* DesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesEncryTool.m; sourceTree = "<group>"; };
-		335C450D20E482BB008F0543 /* EncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryTool.m; sourceTree = "<group>"; };
-		335C450E20E482BB008F0543 /* EncryDesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryDesEncryTool.m; sourceTree = "<group>"; };
-		335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDeviceSpaceTool.m; sourceTree = "<group>"; };
-		335C451020E482BB008F0543 /* EncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryTool.h; sourceTree = "<group>"; };
-		335C451120E482BB008F0543 /* DesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryTool.h; sourceTree = "<group>"; };
-		335C451220E482BB008F0543 /* EncryDesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryDesEncryTool.h; sourceTree = "<group>"; };
-		335C451420E482BB008F0543 /* UIView+LWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWFrame.h"; sourceTree = "<group>"; };
-		335C451520E482BB008F0543 /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
-		335C451620E482BB008F0543 /* UIView+LWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWFrame.m"; sourceTree = "<group>"; };
-		335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
-		335C451920E482BB008F0543 /* LWEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWEmitterView.m; sourceTree = "<group>"; };
-		335C451A20E482BB008F0543 /* LWLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLineLabel.m; sourceTree = "<group>"; };
-		335C451B20E482BB008F0543 /* LWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
-		335C451C20E482BB008F0543 /* LWRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
-		335C451D20E482BB008F0543 /* LWWindowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
-		335C451E20E482BB008F0543 /* LWAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationButton.h; sourceTree = "<group>"; };
-		335C451F20E482BB008F0543 /* LWSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSegmentControl.m; sourceTree = "<group>"; };
-		335C452020E482BB008F0543 /* LWEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWEmitterView.h; sourceTree = "<group>"; };
-		335C452120E482BB008F0543 /* LWWindowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWindowAlert.m; sourceTree = "<group>"; };
-		335C452220E482BB008F0543 /* LWRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
-		335C452320E482BB008F0543 /* LWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
-		335C452420E482BB008F0543 /* LWLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLineLabel.h; sourceTree = "<group>"; };
-		335C452520E482BB008F0543 /* LWAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButton.m; sourceTree = "<group>"; };
-		335C452620E482BB008F0543 /* LWSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSegmentControl.h; sourceTree = "<group>"; };
+		335C453820E4847A008F0543 /* YGDeviceSpaceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDeviceSpaceTool.h; sourceTree = "<group>"; };
+		335C453920E4847A008F0543 /* DesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesEncryTool.m; sourceTree = "<group>"; };
+		335C453A20E4847A008F0543 /* EncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryTool.m; sourceTree = "<group>"; };
+		335C453B20E4847A008F0543 /* EncryDesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryDesEncryTool.m; sourceTree = "<group>"; };
+		335C453C20E4847A008F0543 /* YGDeviceSpaceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDeviceSpaceTool.m; sourceTree = "<group>"; };
+		335C453D20E4847A008F0543 /* EncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryTool.h; sourceTree = "<group>"; };
+		335C453E20E4847A008F0543 /* DesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryTool.h; sourceTree = "<group>"; };
+		335C453F20E4847A008F0543 /* EncryDesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryDesEncryTool.h; sourceTree = "<group>"; };
+		335C454120E4847A008F0543 /* UIView+LWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWFrame.h"; sourceTree = "<group>"; };
+		335C454220E4847A008F0543 /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
+		335C454320E4847A008F0543 /* UIView+LWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWFrame.m"; sourceTree = "<group>"; };
+		335C454420E4847A008F0543 /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
+		335C454620E4847A008F0543 /* LWEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWEmitterView.m; sourceTree = "<group>"; };
+		335C454720E4847A008F0543 /* LWLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLineLabel.m; sourceTree = "<group>"; };
+		335C454820E4847A008F0543 /* LWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
+		335C454920E4847A008F0543 /* LWRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
+		335C454A20E4847A008F0543 /* LWWindowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
+		335C454B20E4847A008F0543 /* LWAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationButton.h; sourceTree = "<group>"; };
+		335C454C20E4847A008F0543 /* LWSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSegmentControl.m; sourceTree = "<group>"; };
+		335C454D20E4847A008F0543 /* LWEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWEmitterView.h; sourceTree = "<group>"; };
+		335C454E20E4847A008F0543 /* LWWindowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWindowAlert.m; sourceTree = "<group>"; };
+		335C454F20E4847A008F0543 /* LWRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
+		335C455020E4847A008F0543 /* LWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
+		335C455120E4847A008F0543 /* LWLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLineLabel.h; sourceTree = "<group>"; };
+		335C455220E4847A008F0543 /* LWAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButton.m; sourceTree = "<group>"; };
+		335C455320E4847A008F0543 /* LWSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSegmentControl.h; sourceTree = "<group>"; };
 		339D68A220B3F91800C9C587 /* LWRereshAnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRereshAnimationDemo.h; sourceTree = "<group>"; };
 		339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRereshAnimationDemo.m; sourceTree = "<group>"; };
 		9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,7 @@
 		3322A5BF20A1864B0093407B /* LWToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				335C450820E482BB008F0543 /* LWTools */,
+				335C453420E4847A008F0543 /* LWTools */,
 				3322A5C020A1864B0093407B /* AppDelegate.h */,
 				3322A5C120A1864B0093407B /* AppDelegate.m */,
 				3322A5C320A1864B0093407B /* ViewController.h */,
@@ -242,68 +242,76 @@
 			path = AnimationDemo;
 			sourceTree = "<group>";
 		};
-		335C450820E482BB008F0543 /* LWTools */ = {
+		335C453420E4847A008F0543 /* LWTools */ = {
 			isa = PBXGroup;
 			children = (
-				335C450920E482BB008F0543 /* Classes */,
+				335C453520E4847A008F0543 /* Classes */,
 			);
 			name = LWTools;
 			path = ../../LWTools;
 			sourceTree = "<group>";
 		};
-		335C450920E482BB008F0543 /* Classes */ = {
+		335C453520E4847A008F0543 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				335C450A20E482BB008F0543 /* EncryDesEncryTool */,
-				335C451320E482BB008F0543 /* Extensions */,
-				335C451820E482BB008F0543 /* Views */,
+				335C453620E4847A008F0543 /* Core */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		335C450A20E482BB008F0543 /* EncryDesEncryTool */ = {
+		335C453620E4847A008F0543 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				335C450B20E482BB008F0543 /* YGDeviceSpaceTool.h */,
-				335C450C20E482BB008F0543 /* DesEncryTool.m */,
-				335C450D20E482BB008F0543 /* EncryTool.m */,
-				335C450E20E482BB008F0543 /* EncryDesEncryTool.m */,
-				335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */,
-				335C451020E482BB008F0543 /* EncryTool.h */,
-				335C451120E482BB008F0543 /* DesEncryTool.h */,
-				335C451220E482BB008F0543 /* EncryDesEncryTool.h */,
+				335C453720E4847A008F0543 /* EncryDesEncryTool */,
+				335C454020E4847A008F0543 /* Extensions */,
+				335C454520E4847A008F0543 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		335C453720E4847A008F0543 /* EncryDesEncryTool */ = {
+			isa = PBXGroup;
+			children = (
+				335C453820E4847A008F0543 /* YGDeviceSpaceTool.h */,
+				335C453920E4847A008F0543 /* DesEncryTool.m */,
+				335C453A20E4847A008F0543 /* EncryTool.m */,
+				335C453B20E4847A008F0543 /* EncryDesEncryTool.m */,
+				335C453C20E4847A008F0543 /* YGDeviceSpaceTool.m */,
+				335C453D20E4847A008F0543 /* EncryTool.h */,
+				335C453E20E4847A008F0543 /* DesEncryTool.h */,
+				335C453F20E4847A008F0543 /* EncryDesEncryTool.h */,
 			);
 			path = EncryDesEncryTool;
 			sourceTree = "<group>";
 		};
-		335C451320E482BB008F0543 /* Extensions */ = {
+		335C454020E4847A008F0543 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				335C451420E482BB008F0543 /* UIView+LWFrame.h */,
-				335C451520E482BB008F0543 /* UIScrollView+LWExtension.h */,
-				335C451620E482BB008F0543 /* UIView+LWFrame.m */,
-				335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */,
+				335C454120E4847A008F0543 /* UIView+LWFrame.h */,
+				335C454220E4847A008F0543 /* UIScrollView+LWExtension.h */,
+				335C454320E4847A008F0543 /* UIView+LWFrame.m */,
+				335C454420E4847A008F0543 /* UIScrollView+LWExtension.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		335C451820E482BB008F0543 /* Views */ = {
+		335C454520E4847A008F0543 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				335C451920E482BB008F0543 /* LWEmitterView.m */,
-				335C451A20E482BB008F0543 /* LWLineLabel.m */,
-				335C451B20E482BB008F0543 /* LWRefreshHeader.h */,
-				335C451C20E482BB008F0543 /* LWRefreshFooter.h */,
-				335C451D20E482BB008F0543 /* LWWindowAlert.h */,
-				335C451E20E482BB008F0543 /* LWAnimationButton.h */,
-				335C451F20E482BB008F0543 /* LWSegmentControl.m */,
-				335C452020E482BB008F0543 /* LWEmitterView.h */,
-				335C452120E482BB008F0543 /* LWWindowAlert.m */,
-				335C452220E482BB008F0543 /* LWRefreshFooter.m */,
-				335C452320E482BB008F0543 /* LWRefreshHeader.m */,
-				335C452420E482BB008F0543 /* LWLineLabel.h */,
-				335C452520E482BB008F0543 /* LWAnimationButton.m */,
-				335C452620E482BB008F0543 /* LWSegmentControl.h */,
+				335C454620E4847A008F0543 /* LWEmitterView.m */,
+				335C454720E4847A008F0543 /* LWLineLabel.m */,
+				335C454820E4847A008F0543 /* LWRefreshHeader.h */,
+				335C454920E4847A008F0543 /* LWRefreshFooter.h */,
+				335C454A20E4847A008F0543 /* LWWindowAlert.h */,
+				335C454B20E4847A008F0543 /* LWAnimationButton.h */,
+				335C454C20E4847A008F0543 /* LWSegmentControl.m */,
+				335C454D20E4847A008F0543 /* LWEmitterView.h */,
+				335C454E20E4847A008F0543 /* LWWindowAlert.m */,
+				335C454F20E4847A008F0543 /* LWRefreshFooter.m */,
+				335C455020E4847A008F0543 /* LWRefreshHeader.m */,
+				335C455120E4847A008F0543 /* LWLineLabel.h */,
+				335C455220E4847A008F0543 /* LWAnimationButton.m */,
+				335C455320E4847A008F0543 /* LWSegmentControl.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -447,29 +455,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335C452720E482BC008F0543 /* DesEncryTool.m in Sources */,
-				335C452D20E482BC008F0543 /* LWEmitterView.m in Sources */,
-				335C452820E482BC008F0543 /* EncryTool.m in Sources */,
+				335C455420E4847A008F0543 /* DesEncryTool.m in Sources */,
+				335C455A20E4847A008F0543 /* LWEmitterView.m in Sources */,
+				335C455520E4847A008F0543 /* EncryTool.m in Sources */,
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
 				339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */,
 				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
 				3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */,
 				3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */,
-				335C452920E482BC008F0543 /* EncryDesEncryTool.m in Sources */,
-				335C452C20E482BC008F0543 /* UIScrollView+LWExtension.m in Sources */,
+				335C455620E4847A008F0543 /* EncryDesEncryTool.m in Sources */,
+				335C455920E4847A008F0543 /* UIScrollView+LWExtension.m in Sources */,
 				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
-				335C452F20E482BC008F0543 /* LWSegmentControl.m in Sources */,
+				335C455C20E4847A008F0543 /* LWSegmentControl.m in Sources */,
 				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
-				335C452A20E482BC008F0543 /* YGDeviceSpaceTool.m in Sources */,
-				335C452E20E482BC008F0543 /* LWLineLabel.m in Sources */,
-				335C453320E482BC008F0543 /* LWAnimationButton.m in Sources */,
+				335C455720E4847A008F0543 /* YGDeviceSpaceTool.m in Sources */,
+				335C455B20E4847A008F0543 /* LWLineLabel.m in Sources */,
+				335C456020E4847A008F0543 /* LWAnimationButton.m in Sources */,
 				3322A5D020A1864D0093407B /* main.m in Sources */,
 				3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */,
-				335C453220E482BC008F0543 /* LWRefreshHeader.m in Sources */,
-				335C453020E482BC008F0543 /* LWWindowAlert.m in Sources */,
-				335C453120E482BC008F0543 /* LWRefreshFooter.m in Sources */,
+				335C455F20E4847A008F0543 /* LWRefreshHeader.m in Sources */,
+				335C455D20E4847A008F0543 /* LWWindowAlert.m in Sources */,
+				335C455E20E4847A008F0543 /* LWRefreshFooter.m in Sources */,
 				3322A5C220A1864B0093407B /* AppDelegate.m in Sources */,
-				335C452B20E482BC008F0543 /* UIView+LWFrame.m in Sources */,
+				335C455820E4847A008F0543 /* UIView+LWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
