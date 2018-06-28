@@ -16,24 +16,14 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LittleCuteCat/LWTools.git", :tag => "#{s.version}" }
 
-  s.default_subspec = 'Core'
+  s.requires_arc = true
 
-  s.subspec 'Core' do |co|
-    
-    co.source_files = 'LWTools/Classes/Core/**/*'
-    co.public_header_files = 'LWTools/Classes/Core/**/*.h'
-    co.dependency 'MJRefresh'
-  end
- 
-  s.subspec 'LWPhotoBrowser' do |pb|
-     pb.source_files = 'LWTools/Classes/LWPhotoBrowser/**/*'
-     pb.public_header_files = 'LWTools/Classes/LWPhotoBrowser/**/*.h'
-     pb.dependency 'SDWebImage'
-  end
- 
-  s.subspec 'LWAnimation' do |an|
-    an.source_files = 'LWTools/Classes/LWAnimation/**/*'
-    an.public_header_files = 'LWTools/Classes/LWAnimation/**/*.h'
-  end
+  s.source_files = "Classes","Classes/**/*.{h,m}"
+
+  s.dependency 'LWAnimation'
+
+  s.dependency 'LWPhotoBrowser'
+
+  s.frameworks 'UIKit','Foundation'
 
 end
