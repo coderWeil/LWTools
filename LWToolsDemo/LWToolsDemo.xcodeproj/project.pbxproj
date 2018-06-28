@@ -13,14 +13,6 @@
 		3322A5CA20A1864D0093407B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3322A5C920A1864D0093407B /* Assets.xcassets */; };
 		3322A5CD20A1864D0093407B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3322A5CB20A1864D0093407B /* LaunchScreen.storyboard */; };
 		3322A5D020A1864D0093407B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5CF20A1864D0093407B /* main.m */; };
-		3322A5E620A187900093407B /* DesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DC20A187900093407B /* DesEncryTool.m */; };
-		3322A5E720A187900093407B /* EncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DD20A187900093407B /* EncryTool.m */; };
-		3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DE20A187900093407B /* EncryDesEncryTool.m */; };
-		3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */; };
-		3322A5EA20A187900093407B /* UIView+LWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5E520A187900093407B /* UIView+LWFrame.m */; };
-		3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5ED20A1A2480093407B /* LWAnimationButton.m */; };
-		3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5F020A1A29B0093407B /* LWEmitterView.m */; };
-		3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5F520A2EE670093407B /* LWSegmentControl.m */; };
 		3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */; };
 		3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A5FE20A2F3ED0093407B /* LWViewImageController.m */; };
 		3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A60120A2F3FB0093407B /* LWSegmentViewController.m */; };
@@ -38,12 +30,20 @@
 		3322A64020A3DC090093407B /* Expression09.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63520A3DC090093407B /* Expression09.jpeg */; };
 		3322A64120A3DC090093407B /* Expression05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3322A63620A3DC090093407B /* Expression05.jpeg */; };
 		3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322A64420A3DCA10093407B /* LWAnimationViewController.m */; };
-		3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */; };
-		3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3382098B20CFA4F300261C9F /* LWWindowAlert.m */; };
-		339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */; };
-		339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */; };
+		335C452720E482BC008F0543 /* DesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450C20E482BB008F0543 /* DesEncryTool.m */; };
+		335C452820E482BC008F0543 /* EncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450D20E482BB008F0543 /* EncryTool.m */; };
+		335C452920E482BC008F0543 /* EncryDesEncryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450E20E482BB008F0543 /* EncryDesEncryTool.m */; };
+		335C452A20E482BC008F0543 /* YGDeviceSpaceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */; };
+		335C452B20E482BC008F0543 /* UIView+LWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451620E482BB008F0543 /* UIView+LWFrame.m */; };
+		335C452C20E482BC008F0543 /* UIScrollView+LWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */; };
+		335C452D20E482BC008F0543 /* LWEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451920E482BB008F0543 /* LWEmitterView.m */; };
+		335C452E20E482BC008F0543 /* LWLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451A20E482BB008F0543 /* LWLineLabel.m */; };
+		335C452F20E482BC008F0543 /* LWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C451F20E482BB008F0543 /* LWSegmentControl.m */; };
+		335C453020E482BC008F0543 /* LWWindowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452120E482BB008F0543 /* LWWindowAlert.m */; };
+		335C453120E482BC008F0543 /* LWRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452220E482BB008F0543 /* LWRefreshFooter.m */; };
+		335C453220E482BC008F0543 /* LWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452320E482BB008F0543 /* LWRefreshHeader.m */; };
+		335C453320E482BC008F0543 /* LWAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 335C452520E482BB008F0543 /* LWAnimationButton.m */; };
 		339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */; };
-		339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 339D68C820B655F000C9C587 /* LWLineLabel.m */; };
 		8775F145EBC4550E060C3AAF /* libPods-LWToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -59,22 +59,6 @@
 		3322A5CC20A1864D0093407B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3322A5CE20A1864D0093407B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3322A5CF20A1864D0093407B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3322A5DB20A187900093407B /* YGDeviceSpaceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDeviceSpaceTool.h; sourceTree = "<group>"; };
-		3322A5DC20A187900093407B /* DesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesEncryTool.m; sourceTree = "<group>"; };
-		3322A5DD20A187900093407B /* EncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryTool.m; sourceTree = "<group>"; };
-		3322A5DE20A187900093407B /* EncryDesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryDesEncryTool.m; sourceTree = "<group>"; };
-		3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDeviceSpaceTool.m; sourceTree = "<group>"; };
-		3322A5E020A187900093407B /* EncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryTool.h; sourceTree = "<group>"; };
-		3322A5E120A187900093407B /* DesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryTool.h; sourceTree = "<group>"; };
-		3322A5E220A187900093407B /* EncryDesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryDesEncryTool.h; sourceTree = "<group>"; };
-		3322A5E420A187900093407B /* UIView+LWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWFrame.h"; sourceTree = "<group>"; };
-		3322A5E520A187900093407B /* UIView+LWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWFrame.m"; sourceTree = "<group>"; };
-		3322A5EC20A1A2480093407B /* LWAnimationButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationButton.h; sourceTree = "<group>"; };
-		3322A5ED20A1A2480093407B /* LWAnimationButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButton.m; sourceTree = "<group>"; };
-		3322A5EF20A1A29B0093407B /* LWEmitterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWEmitterView.h; sourceTree = "<group>"; };
-		3322A5F020A1A29B0093407B /* LWEmitterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWEmitterView.m; sourceTree = "<group>"; };
-		3322A5F420A2EE670093407B /* LWSegmentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWSegmentControl.h; sourceTree = "<group>"; };
-		3322A5F520A2EE670093407B /* LWSegmentControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWSegmentControl.m; sourceTree = "<group>"; };
 		3322A5FA20A2F3DF0093407B /* LWAnimationButtonDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationButtonDemo.h; sourceTree = "<group>"; };
 		3322A5FB20A2F3DF0093407B /* LWAnimationButtonDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButtonDemo.m; sourceTree = "<group>"; };
 		3322A5FD20A2F3ED0093407B /* LWViewImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewImageController.h; sourceTree = "<group>"; };
@@ -98,18 +82,34 @@
 		3322A63620A3DC090093407B /* Expression05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Expression05.jpeg; sourceTree = "<group>"; };
 		3322A64320A3DCA10093407B /* LWAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimationViewController.h; sourceTree = "<group>"; };
 		3322A64420A3DCA10093407B /* LWAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimationViewController.m; sourceTree = "<group>"; };
-		3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
-		3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
-		3382098A20CFA4F300261C9F /* LWWindowAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
-		3382098B20CFA4F300261C9F /* LWWindowAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWWindowAlert.m; sourceTree = "<group>"; };
-		339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
-		339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
-		339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
-		339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
+		335C450B20E482BB008F0543 /* YGDeviceSpaceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGDeviceSpaceTool.h; sourceTree = "<group>"; };
+		335C450C20E482BB008F0543 /* DesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesEncryTool.m; sourceTree = "<group>"; };
+		335C450D20E482BB008F0543 /* EncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryTool.m; sourceTree = "<group>"; };
+		335C450E20E482BB008F0543 /* EncryDesEncryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryDesEncryTool.m; sourceTree = "<group>"; };
+		335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDeviceSpaceTool.m; sourceTree = "<group>"; };
+		335C451020E482BB008F0543 /* EncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryTool.h; sourceTree = "<group>"; };
+		335C451120E482BB008F0543 /* DesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryTool.h; sourceTree = "<group>"; };
+		335C451220E482BB008F0543 /* EncryDesEncryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryDesEncryTool.h; sourceTree = "<group>"; };
+		335C451420E482BB008F0543 /* UIView+LWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWFrame.h"; sourceTree = "<group>"; };
+		335C451520E482BB008F0543 /* UIScrollView+LWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWExtension.h"; sourceTree = "<group>"; };
+		335C451620E482BB008F0543 /* UIView+LWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWFrame.m"; sourceTree = "<group>"; };
+		335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWExtension.m"; sourceTree = "<group>"; };
+		335C451920E482BB008F0543 /* LWEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWEmitterView.m; sourceTree = "<group>"; };
+		335C451A20E482BB008F0543 /* LWLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLineLabel.m; sourceTree = "<group>"; };
+		335C451B20E482BB008F0543 /* LWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshHeader.h; sourceTree = "<group>"; };
+		335C451C20E482BB008F0543 /* LWRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRefreshFooter.h; sourceTree = "<group>"; };
+		335C451D20E482BB008F0543 /* LWWindowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWindowAlert.h; sourceTree = "<group>"; };
+		335C451E20E482BB008F0543 /* LWAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAnimationButton.h; sourceTree = "<group>"; };
+		335C451F20E482BB008F0543 /* LWSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWSegmentControl.m; sourceTree = "<group>"; };
+		335C452020E482BB008F0543 /* LWEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWEmitterView.h; sourceTree = "<group>"; };
+		335C452120E482BB008F0543 /* LWWindowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWindowAlert.m; sourceTree = "<group>"; };
+		335C452220E482BB008F0543 /* LWRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshFooter.m; sourceTree = "<group>"; };
+		335C452320E482BB008F0543 /* LWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRefreshHeader.m; sourceTree = "<group>"; };
+		335C452420E482BB008F0543 /* LWLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLineLabel.h; sourceTree = "<group>"; };
+		335C452520E482BB008F0543 /* LWAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAnimationButton.m; sourceTree = "<group>"; };
+		335C452620E482BB008F0543 /* LWSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSegmentControl.h; sourceTree = "<group>"; };
 		339D68A220B3F91800C9C587 /* LWRereshAnimationDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRereshAnimationDemo.h; sourceTree = "<group>"; };
 		339D68A320B3F91800C9C587 /* LWRereshAnimationDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRereshAnimationDemo.m; sourceTree = "<group>"; };
-		339D68C720B655F000C9C587 /* LWLineLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLineLabel.h; sourceTree = "<group>"; };
-		339D68C820B655F000C9C587 /* LWLineLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLineLabel.m; sourceTree = "<group>"; };
 		9CBD61981D60F38FEBCAB5C6 /* libPods-LWToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D4F3FFB23CB1C257985B70 /* Pods-LWToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWToolsDemo/Pods-LWToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,7 @@
 		3322A5BF20A1864B0093407B /* LWToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3322A5D920A187900093407B /* Classes */,
+				335C450820E482BB008F0543 /* LWTools */,
 				3322A5C020A1864B0093407B /* AppDelegate.h */,
 				3322A5C120A1864B0093407B /* AppDelegate.m */,
 				3322A5C320A1864B0093407B /* ViewController.h */,
@@ -174,64 +174,6 @@
 				3322A5CF20A1864D0093407B /* main.m */,
 			);
 			path = LWToolsDemo;
-			sourceTree = "<group>";
-		};
-		3322A5D920A187900093407B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3322A5EB20A1A2280093407B /* Views */,
-				3322A5DA20A187900093407B /* EncryDesEncryTool */,
-				3322A5E320A187900093407B /* Extensions */,
-			);
-			name = Classes;
-			path = ../../Classes;
-			sourceTree = "<group>";
-		};
-		3322A5DA20A187900093407B /* EncryDesEncryTool */ = {
-			isa = PBXGroup;
-			children = (
-				3322A5DB20A187900093407B /* YGDeviceSpaceTool.h */,
-				3322A5DC20A187900093407B /* DesEncryTool.m */,
-				3322A5DD20A187900093407B /* EncryTool.m */,
-				3322A5DE20A187900093407B /* EncryDesEncryTool.m */,
-				3322A5DF20A187900093407B /* YGDeviceSpaceTool.m */,
-				3322A5E020A187900093407B /* EncryTool.h */,
-				3322A5E120A187900093407B /* DesEncryTool.h */,
-				3322A5E220A187900093407B /* EncryDesEncryTool.h */,
-			);
-			path = EncryDesEncryTool;
-			sourceTree = "<group>";
-		};
-		3322A5E320A187900093407B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3322A5E420A187900093407B /* UIView+LWFrame.h */,
-				3322A5E520A187900093407B /* UIView+LWFrame.m */,
-				3368AE1220C11B2900F16E1E /* UIScrollView+LWExtension.h */,
-				3368AE1320C11B2900F16E1E /* UIScrollView+LWExtension.m */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3322A5EB20A1A2280093407B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3322A5EC20A1A2480093407B /* LWAnimationButton.h */,
-				3322A5ED20A1A2480093407B /* LWAnimationButton.m */,
-				3322A5EF20A1A29B0093407B /* LWEmitterView.h */,
-				3322A5F020A1A29B0093407B /* LWEmitterView.m */,
-				3322A5F420A2EE670093407B /* LWSegmentControl.h */,
-				3322A5F520A2EE670093407B /* LWSegmentControl.m */,
-				339D689B20B3F6CB00C9C587 /* LWRefreshHeader.h */,
-				339D689C20B3F6CB00C9C587 /* LWRefreshHeader.m */,
-				339D689E20B3F6E500C9C587 /* LWRefreshFooter.h */,
-				339D689F20B3F6E500C9C587 /* LWRefreshFooter.m */,
-				339D68C720B655F000C9C587 /* LWLineLabel.h */,
-				339D68C820B655F000C9C587 /* LWLineLabel.m */,
-				3382098A20CFA4F300261C9F /* LWWindowAlert.h */,
-				3382098B20CFA4F300261C9F /* LWWindowAlert.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		3322A5F720A2F3CC0093407B /* ViewImageDemo */ = {
@@ -298,6 +240,72 @@
 				3322A64420A3DCA10093407B /* LWAnimationViewController.m */,
 			);
 			path = AnimationDemo;
+			sourceTree = "<group>";
+		};
+		335C450820E482BB008F0543 /* LWTools */ = {
+			isa = PBXGroup;
+			children = (
+				335C450920E482BB008F0543 /* Classes */,
+			);
+			name = LWTools;
+			path = ../../LWTools;
+			sourceTree = "<group>";
+		};
+		335C450920E482BB008F0543 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				335C450A20E482BB008F0543 /* EncryDesEncryTool */,
+				335C451320E482BB008F0543 /* Extensions */,
+				335C451820E482BB008F0543 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		335C450A20E482BB008F0543 /* EncryDesEncryTool */ = {
+			isa = PBXGroup;
+			children = (
+				335C450B20E482BB008F0543 /* YGDeviceSpaceTool.h */,
+				335C450C20E482BB008F0543 /* DesEncryTool.m */,
+				335C450D20E482BB008F0543 /* EncryTool.m */,
+				335C450E20E482BB008F0543 /* EncryDesEncryTool.m */,
+				335C450F20E482BB008F0543 /* YGDeviceSpaceTool.m */,
+				335C451020E482BB008F0543 /* EncryTool.h */,
+				335C451120E482BB008F0543 /* DesEncryTool.h */,
+				335C451220E482BB008F0543 /* EncryDesEncryTool.h */,
+			);
+			path = EncryDesEncryTool;
+			sourceTree = "<group>";
+		};
+		335C451320E482BB008F0543 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				335C451420E482BB008F0543 /* UIView+LWFrame.h */,
+				335C451520E482BB008F0543 /* UIScrollView+LWExtension.h */,
+				335C451620E482BB008F0543 /* UIView+LWFrame.m */,
+				335C451720E482BB008F0543 /* UIScrollView+LWExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		335C451820E482BB008F0543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				335C451920E482BB008F0543 /* LWEmitterView.m */,
+				335C451A20E482BB008F0543 /* LWLineLabel.m */,
+				335C451B20E482BB008F0543 /* LWRefreshHeader.h */,
+				335C451C20E482BB008F0543 /* LWRefreshFooter.h */,
+				335C451D20E482BB008F0543 /* LWWindowAlert.h */,
+				335C451E20E482BB008F0543 /* LWAnimationButton.h */,
+				335C451F20E482BB008F0543 /* LWSegmentControl.m */,
+				335C452020E482BB008F0543 /* LWEmitterView.h */,
+				335C452120E482BB008F0543 /* LWWindowAlert.m */,
+				335C452220E482BB008F0543 /* LWRefreshFooter.m */,
+				335C452320E482BB008F0543 /* LWRefreshHeader.m */,
+				335C452420E482BB008F0543 /* LWLineLabel.h */,
+				335C452520E482BB008F0543 /* LWAnimationButton.m */,
+				335C452620E482BB008F0543 /* LWSegmentControl.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		339D68A120B3F90300C9C587 /* RefreshDemo */ = {
@@ -439,29 +447,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3368AE1420C11B2900F16E1E /* UIScrollView+LWExtension.m in Sources */,
-				3322A5F120A1A29B0093407B /* LWEmitterView.m in Sources */,
+				335C452720E482BC008F0543 /* DesEncryTool.m in Sources */,
+				335C452D20E482BC008F0543 /* LWEmitterView.m in Sources */,
+				335C452820E482BC008F0543 /* EncryTool.m in Sources */,
 				3322A60220A2F3FB0093407B /* LWSegmentViewController.m in Sources */,
 				339D68A420B3F91800C9C587 /* LWRereshAnimationDemo.m in Sources */,
-				339D68A020B3F6E500C9C587 /* LWRefreshFooter.m in Sources */,
 				3322A5FF20A2F3ED0093407B /* LWViewImageController.m in Sources */,
-				3322A5E720A187900093407B /* EncryTool.m in Sources */,
-				3322A5E620A187900093407B /* DesEncryTool.m in Sources */,
-				3322A5F620A2EE670093407B /* LWSegmentControl.m in Sources */,
-				3322A5E820A187900093407B /* EncryDesEncryTool.m in Sources */,
-				339D68C920B655F000C9C587 /* LWLineLabel.m in Sources */,
-				3322A5E920A187900093407B /* YGDeviceSpaceTool.m in Sources */,
 				3322A62A20A3DB350093407B /* LYPictureFirstPageCell.m in Sources */,
 				3322A5FC20A2F3DF0093407B /* LWAnimationButtonDemo.m in Sources */,
-				3322A5EE20A1A2480093407B /* LWAnimationButton.m in Sources */,
+				335C452920E482BC008F0543 /* EncryDesEncryTool.m in Sources */,
+				335C452C20E482BC008F0543 /* UIScrollView+LWExtension.m in Sources */,
 				3322A62720A3DB1D0093407B /* LWPhotosViewController.m in Sources */,
+				335C452F20E482BC008F0543 /* LWSegmentControl.m in Sources */,
 				3322A5C520A1864B0093407B /* ViewController.m in Sources */,
-				339D689D20B3F6CB00C9C587 /* LWRefreshHeader.m in Sources */,
-				3382098C20CFA4F300261C9F /* LWWindowAlert.m in Sources */,
-				3322A5EA20A187900093407B /* UIView+LWFrame.m in Sources */,
+				335C452A20E482BC008F0543 /* YGDeviceSpaceTool.m in Sources */,
+				335C452E20E482BC008F0543 /* LWLineLabel.m in Sources */,
+				335C453320E482BC008F0543 /* LWAnimationButton.m in Sources */,
 				3322A5D020A1864D0093407B /* main.m in Sources */,
 				3322A64520A3DCA10093407B /* LWAnimationViewController.m in Sources */,
+				335C453220E482BC008F0543 /* LWRefreshHeader.m in Sources */,
+				335C453020E482BC008F0543 /* LWWindowAlert.m in Sources */,
+				335C453120E482BC008F0543 /* LWRefreshFooter.m in Sources */,
 				3322A5C220A1864B0093407B /* AppDelegate.m in Sources */,
+				335C452B20E482BC008F0543 /* UIView+LWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

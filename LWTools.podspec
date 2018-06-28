@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWTools"
-  s.version      = "2.1.1.5"
+  s.version      = "2.1.1.6"
   s.summary      = "一些常用的工具类"
   s.description  = "1.对文件的简单加密，解密功能  2.判断设备剩余空间的大小  3.添加view分类  4.粒子动画特效的按钮 5.从一张view中生成图片 6.增加标签选择功能（可显示小红点） 7.类似微信图片浏览功能 8.多种动画效果  9.自定义基于MJRefresh的上拉加载下拉刷新动画  10.自定义window，放到状态栏位置，点击scrollView滚动到顶部"
 
@@ -16,11 +16,22 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/LittleCuteCat/LWTools.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes","Classes/**/*.{h,m}"
-
-  s.dependency "SDWebImage"
-   
-  s.dependency "MJRefresh"
+  s.subspec 'EncryDesEncryTool' do |encry|
+    
+    encry.source_files = 'LWTools/Classes/EncryDesEncryTool/**/*'
+    encry.public_header_files = 'LWTools/Classes/EncryDesEncryTool/**/*.h'
+  end
+ 
+  s.subspec 'Extensions' do |ex|
+     ex.source_files = 'LWTools/Classes/Extensions/**/*'
+     ex.public_header_files = 'LWTools/Classes/Extensions/**/*.h'
+  end
+ 
+  s.subspec 'Views' do |ve|
+    ve.source_files = 'LWTools/Classes/Views/**/*'
+    ve.public_header_files = 'LWTools/Classes/Views/**/*.h'
+    ve.dependency 'MJRefresh'
+  end
 
   s.dependency "LWPhotoBrowser"
 
