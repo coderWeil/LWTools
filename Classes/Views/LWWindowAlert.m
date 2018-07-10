@@ -28,6 +28,7 @@ static UIWindow *_customWindow;
 }
 + (void)disableCustomWindowAlert {
     _customWindow.hidden = YES;
+    _customWindow = nil;
 }
 + (void)clickTopWindowAlert {
     UIWindow *keywindow = [UIApplication sharedApplication].keyWindow;
