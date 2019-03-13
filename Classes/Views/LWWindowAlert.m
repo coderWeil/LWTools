@@ -47,6 +47,6 @@ static UIWindow *_customWindow;
     if (!CGRectIntersectsRect(scrollViewRect, windowRect)) {
         return;
     }
-    [scrollView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
+    [scrollView scrollRectToVisible:CGRectMake(scrollView.contentOffset.x, 0, 1, 1) animated:YES];
 }
 @end
